@@ -2,10 +2,13 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using DACS.Models;
 using Microsoft.AspNetCore.Identity.UI.Services;
+using DACS.Models;
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
-//builder.Services.Configure<EmailSettings>(configuration.GetSection("EmailSettings"));
-//builder.Services.AddTransient<IEmailSender, EmailSender>();
+
+builder.Services.Configure<EmailSettings>(configuration.GetSection("EmailSettings"));
+builder.Services.AddTransient<IEmailSender, EmailSender>();
+
 builder.Services.AddAuthentication().AddGoogle(googleOptions =>
 {
     googleOptions.ClientId = configuration["Authentication:Google:ClientId"];
@@ -49,5 +52,5 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
+app.MapRazorPages();
 app.Run();
