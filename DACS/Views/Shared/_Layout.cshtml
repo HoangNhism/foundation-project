@@ -75,11 +75,14 @@
                                         <li><a href="#">Menu One</a></li>
                                         <li><a href="#">Menu Two</a></li>
                                         <li><a href="#">Menu Three</a></li>
-                                        <partial name="_LoginPartial" />
                                     </ul>
                                 </li>
                                 <li><a asp-controller="Home" asp-action="About">About</a></li>
-                                <li><a href="Contact.html">Contact</a></li>
+                                <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
+                                <li class="has-children">
+                                    <a>Account</a>
+                                    <partial name="_LoginPartial" />
+                                </li>
                             </ul>
                             
                         </nav>

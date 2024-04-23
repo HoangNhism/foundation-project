@@ -85,6 +85,10 @@ namespace DACS.Areas.Identity.Pages.Account
             [Required]
             [EmailAddress]
             public string Email { get; set; }
+            [Required]
+            public string FullName { get; set; }
+            [Required]
+            public DateTime Dob { get; set; }
         }
         
         public IActionResult OnGet() => RedirectToPage("./Login");
@@ -153,7 +157,8 @@ namespace DACS.Areas.Identity.Pages.Account
             if (ModelState.IsValid)
             {
                 var user = CreateUser();
-
+                user.FullName = Input.FullName;
+                user.Dob = Input.Dob;
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
 
