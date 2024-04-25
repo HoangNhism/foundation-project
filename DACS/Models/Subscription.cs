@@ -1,9 +1,11 @@
-﻿namespace DACS.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace DACS.Models
 {
     public class Subscription
     {
-        public int SubcriptionID { get; set; }
-        public DateTime SubcriptiontDate { get; set; }
+        public int SubscriptionID { get; set; }
+        public DateTime SubscriptionDate { get; set; }
         public string UserID { get; set; }
         public ApplicationUser? User { get; set; }
         public int PodcastID { get; set; }
