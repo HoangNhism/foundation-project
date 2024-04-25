@@ -5,6 +5,22 @@
       "PackagePath": "staticwebassets\\DACS.bundle.scp.css"
     },
     {
+      "Id": "D:\\C#\\foundation-project\\DACS\\wwwroot\\Video\\HaveAShip EP87.mp3",
+      "PackagePath": "staticwebassets\\Video\\HaveAShip EP87.mp3"
+    },
+    {
+      "Id": "D:\\C#\\foundation-project\\DACS\\wwwroot\\Video\\LunchBreak S2 Ep6.mp3",
+      "PackagePath": "staticwebassets\\Video\\LunchBreak S2 Ep6.mp3"
+    },
+    {
+      "Id": "D:\\C#\\foundation-project\\DACS\\wwwroot\\Video\\TheBreakerEp3.mp3",
+      "PackagePath": "staticwebassets\\Video\\TheBreakerEp3.mp3"
+    },
+    {
+      "Id": "D:\\C#\\foundation-project\\DACS\\wwwroot\\Video\\TheMoneyDate SS2 Ep14.mp3",
+      "PackagePath": "staticwebassets\\Video\\TheMoneyDate SS2 Ep14.mp3"
+    },
+    {
       "Id": "D:\\C#\\foundation-project\\DACS\\wwwroot\\css\\aos.css",
       "PackagePath": "staticwebassets\\css\\aos.css"
     },
@@ -83,6 +99,26 @@
     {
       "Id": "D:\\C#\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\style.css",
       "PackagePath": "staticwebassets\\fonts\\icomoon\\style.css"
+    },
+    {
+      "Id": "D:\\C#\\foundation-project\\DACS\\wwwroot\\images\\BLVAnhQuang.png",
+      "PackagePath": "staticwebassets\\images\\BLVAnhQuang.png"
+    },
+    {
+      "Id": "D:\\C#\\foundation-project\\DACS\\wwwroot\\images\\Shinphamm.jpg",
+      "PackagePath": "staticwebassets\\images\\Shinphamm.jpg"
+    },
+    {
+      "Id": "D:\\C#\\foundation-project\\DACS\\wwwroot\\images\\ThayMinhNiem.jpg",
+      "PackagePath": "staticwebassets\\images\\ThayMinhNiem.jpg"
+    },
+    {
+      "Id": "D:\\C#\\foundation-project\\DACS\\wwwroot\\images\\Vietcetera.png",
+      "PackagePath": "staticwebassets\\images\\Vietcetera.png"
+    },
+    {
+      "Id": "D:\\C#\\foundation-project\\DACS\\wwwroot\\images\\Webthethao.jpg",
+      "PackagePath": "staticwebassets\\images\\Webthethao.jpg"
     },
     {
       "Id": "D:\\C#\\foundation-project\\DACS\\wwwroot\\images\\hero_bg_1.jpg",
