@@ -1,7 +1,30 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Contact";
 }
 
-<h1>Contact</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <h2 class="text-center mt-4">Liên hệ</h2>
+            <p>Nếu bạn có bất kỳ câu hỏi, phản hồi hoặc góp ý nào về trang web của chúng tôi hoặc muốn gửi yêu cầu về chủ đề mới cho các chương trình podcast tương lai, vui lòng liên hệ với chúng tôi bằng cách sử dụng thông tin liên hệ dưới đây hoặc điền vào biểu mẫu dưới đây:</p>
+            <p><strong>Email:</strong> huynhtanloc1802@gmail.com</p>
+            <p><strong>Địa chỉ:</strong> Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam</p>
 
+            <form action="Index" method="post" class="mt-4">
+                <div class="form-group">
+                    <label for="name">Họ và tên:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Nội dung tin nhắn:</label>
+                    <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+            </form>
+        </div>
+    </div>
+</div>

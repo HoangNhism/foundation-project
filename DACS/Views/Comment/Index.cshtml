@@ -1,0 +1,27 @@
+﻿@model DACS.ViewModels.ViewModelComment
+
+<!-- Hiển thị danh sách bình luận -->
+<div id="comments">
+    @foreach (var comment in Model.Comms)
+    {
+        <div class="comment">
+            <div class="comment-header">
+                @* <img src="@Url.Content("~/path-to-user-avatar/" + comment.User.Avatar)" alt="User Avatar" class="avatar"> *@
+                <span class="username">@comment.User.UserName</span>
+                <span class="comment-date">@comment.CommentDate.ToString("yyyy-MM-dd HH:mm:ss")</span>
+            </div>
+            <div class="comment-body">
+                <p>@comment.CommentText</p>
+            </div>
+        </div>
+    }
+</div>
+
+<!-- Form để thêm mới bình luận -->
+<div id="new-comment-form">
+    <form asp-action="Create" method="post">
+        <input type="hidden" asp-for="Comms[0].PodcastID" value="@Model.Comms.FirstOrDefault().PodcastID" />
+        <textarea asp-for="Comms[0].CommentText" class="form-control" rows="3"></textarea>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
