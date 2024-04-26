@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Study\\DACS\\foundation-project\\DACS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|c:\\study\\dacs\\foundation-project\\dacs\\models\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:models\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|c:\\study\\dacs\\foundation-project\\dacs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|c:\\study\\dacs\\foundation-project\\dacs\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|c:\\study\\dacs\\foundation-project\\dacs\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|c:\\study\\dacs\\foundation-project\\dacs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|c:\\study\\dacs\\foundation-project\\dacs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -95,10 +99,6 @@
       "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:models\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|c:\\study\\dacs\\foundation-project\\dacs\\models\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:models\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|c:\\study\\dacs\\foundation-project\\dacs\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -138,7 +138,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -146,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
@@ -159,20 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\Study\\DACS\\foundation-project\\DACS\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T10:21:43.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\style.css",
@@ -180,12 +167,11 @@
               "RelativeToolTip": "wwwroot\\css\\style.css",
               "ViewState": "AQIAAKcAAAAAAAAAAAAUwMIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-24T09:33:54.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T09:33:54.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -193,12 +179,11 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAIQAAAAAAAAAAAAAAJsAAAC3AQAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T13:14:37.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T13:14:37.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
@@ -206,12 +191,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T03:39:34.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T03:39:34.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ConfirmEmail.cshtml",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
@@ -219,12 +203,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T14:51:05.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T14:51:05.347Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -232,12 +215,11 @@
               "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T17:06:17.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T17:06:17.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
@@ -245,12 +227,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T14:39:30.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T14:39:30.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ForgotPasswordConfirmation.cshtml",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
@@ -258,12 +239,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T14:50:50.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T14:50:50.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -271,25 +251,49 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAAAAUAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T17:02:31.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T17:02:31.597Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Study\\DACS\\foundation-project\\DACS\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAPAAAAAAAAAAAAAAAHQAAABRAAAA",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAAAHQAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-22T13:12:54.718Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Models\\EmailSender.cs",
+              "RelativeDocumentMoniker": "Models\\EmailSender.cs",
+              "ToolTip": "C:\\Study\\DACS\\foundation-project\\DACS\\Models\\EmailSender.cs",
+              "RelativeToolTip": "Models\\EmailSender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T06:17:43.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Study\\DACS\\foundation-project\\DACS\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T10:21:43.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ExternalLogin.cshtml.cs",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
@@ -297,12 +301,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
               "ViewState": "AQIAACsAAAAAAAAAAIBJwFoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T14:58:04.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T14:58:04.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -310,12 +313,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-22T17:02:56.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T17:02:56.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ExternalLogin.cshtml",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
@@ -323,12 +325,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAIBJwCUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T14:50:54.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T14:50:54.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
@@ -336,12 +337,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAIBJwBsAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T14:51:24.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T14:51:24.124Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -349,12 +349,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAIBJwB8AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T04:07:17.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T04:07:17.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
@@ -362,12 +361,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T14:44:27.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T14:44:27.545Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
@@ -375,12 +373,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T03:40:50.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T03:40:50.242Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -388,12 +385,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAIBJwBYAAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T17:16:57.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T17:16:57.428Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -401,8 +397,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T13:57:08.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T13:57:08.401Z"
             },
             {
               "$type": "Document",
@@ -414,25 +409,11 @@
               "RelativeToolTip": "Migrations\\20240423044822_updateUserInfo.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAmwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T04:48:22.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T04:48:22.745Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "EmailSender.cs",
-              "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Models\\EmailSender.cs",
-              "RelativeDocumentMoniker": "Models\\EmailSender.cs",
-              "ToolTip": "C:\\Study\\DACS\\foundation-project\\DACS\\Models\\EmailSender.cs",
-              "RelativeToolTip": "Models\\EmailSender.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T06:17:43.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
               "Title": "EmailSettings.cs",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Models\\EmailSettings.cs",
               "RelativeDocumentMoniker": "Models\\EmailSettings.cs",
@@ -440,12 +421,11 @@
               "RelativeToolTip": "Models\\EmailSettings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T06:17:46.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T06:17:46.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ForgotPassword.cshtml.cs",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
@@ -453,12 +433,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T06:19:31.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T06:19:31.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
@@ -466,8 +445,7 @@
               "RelativeToolTip": "Models\\ApplicationUser.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAxwAkAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T16:53:18.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T16:53:18.201Z"
             },
             {
               "$type": "Document",
@@ -479,8 +457,7 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AQIAAGAAAAAAAAAAAAAIwHkAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T17:09:43.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T17:09:43.849Z"
             },
             {
               "$type": "Document",
@@ -492,8 +469,7 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T03:39:42.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T03:39:42.907Z"
             },
             {
               "$type": "Document",
@@ -505,8 +481,7 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T03:39:31.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T03:39:31.633Z"
             },
             {
               "$type": "Document",
@@ -518,8 +493,7 @@
               "RelativeToolTip": "Migrations\\20240422172641_initial.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T17:26:41.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T17:26:41.972Z"
             },
             {
               "$type": "Document",
@@ -531,8 +505,7 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "ViewState": "AQIAAEsAAAAAAAAAAAAiwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T17:10:02.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T17:10:02.302Z"
             },
             {
               "$type": "Document",
@@ -544,8 +517,7 @@
               "RelativeToolTip": "Models\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T16:51:58.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T16:51:58.293Z"
             },
             {
               "$type": "Document",
@@ -557,8 +529,7 @@
               "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T13:19:22.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T13:19:22.9Z"
             }
           ]
         }
