@@ -283,3 +283,28 @@
         </div>
     </div>
 </div>
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        $(function () {
+            $("#postTitle").autocomplete({
+                source: function (request, response) {
+                    // Gửi yêu cầu AJAX đến action Search của ProductController với từ khóa tìm kiếm
+                    $.ajax({
+                        url: "/Podcast/Search",
+                        type: "GET",
+                        dataType: "json",
+                        data: {
+                            term: request.term
+                        },
+                        success: function (data) {
+                            // Dữ liệu nhận được từ action Search
+                            response(data);
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}

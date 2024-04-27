@@ -1317,3 +1317,4 @@ C:\Study\DACS\foundation-project\DACS\obj\Debug\net8.0\refint\DACS.dll
 C:\Study\DACS\foundation-project\DACS\obj\Debug\net8.0\DACS.pdb
 C:\Study\DACS\foundation-project\DACS\obj\Debug\net8.0\DACS.genruntimeconfig.cache
 C:\Study\DACS\foundation-project\DACS\obj\Debug\net8.0\ref\DACS.dll
+D:\C#\foundation-project\DACS\obj\Debug\net8.0\scopedcss\Areas\_Layout_Account.cshtml.rz.scp.css

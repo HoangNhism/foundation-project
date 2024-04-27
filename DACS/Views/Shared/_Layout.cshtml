@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900">
     <link rel="stylesheet" href="~/fonts/icomoon/style.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/bootstrap.min.css">
     <link rel="stylesheet" href="~/css/magnific-popup.css">
     <link rel="stylesheet" href="~/css/jquery-ui.css">
@@ -21,6 +21,36 @@
 
     <link rel="stylesheet" href="~/css/style.css">
 
+    <style>
+        #searchForm .input-group {
+            border: none;
+            border-radius: 25px;
+            overflow: hidden;
+            position: relative; /* Để có thể định vị icon trong input */
+        }
+
+            #searchForm .input-group input {
+                border: none;
+                border-radius: 25px;
+                padding: 10px 40px 10px 15px; /* 40px để có không gian cho icon */
+                outline: none;
+                box-shadow: none;
+                width: 100%; /* Đảm bảo input mở rộng đến hết không gian có thể */
+            }
+
+            #searchForm .input-group button {
+                border: none;
+                border-radius: 25px 0 0 25px; /* Bo cong chiều rộng bên trái */
+                color: white; /* Màu chữ cho nút */
+                padding: 10px 20px; /* Điều chỉnh padding cho nút */
+                cursor: pointer;
+                position: absolute;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto; /* Để căn chỉnh nút theo chiều dọc */
+            }
+    </style>
 </head>
 <body>
 
@@ -89,7 +119,24 @@
 
 
                     </div>
-
+                    <div class="col-3" data-aos="fade-down">
+                        <form id="searchForm">
+                            <div class="input-group">
+                                <input type="text" id="postTitle" name="postTitle" placeholder="Enter your keyword" />
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                        @* <form id="searchForm">
+                            <div class="input-group">
+                                <input type="text" id="postTitle" name="postTitle" placeholder="Enter your keyword" />
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </form> *@
+                    </div>
                 </div>
             </div>
 

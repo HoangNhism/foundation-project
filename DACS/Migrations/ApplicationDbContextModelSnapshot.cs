@@ -94,6 +94,266 @@ namespace DACS.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("DACS.Models.Artist", b =>
+                {
+                    b.Property<int>("ArtistID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ArtistID"));
+
+                    b.Property<string>("ArtistName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ArtistID");
+
+                    b.ToTable("Artists");
+                });
+
+            modelBuilder.Entity("DACS.Models.Comment", b =>
+                {
+                    b.Property<int>("CommentID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CommentID"));
+
+                    b.Property<DateTime>("CommentDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CommentText")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PodcastID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("CommentID");
+
+                    b.HasIndex("PodcastID");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Comments");
+                });
+
+            modelBuilder.Entity("DACS.Models.Episode", b =>
+                {
+                    b.Property<int>("EpisodeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("EpisodeId"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Duraion")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PodcastID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("ReleaseDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("EpisodeId");
+
+                    b.HasIndex("PodcastID");
+
+                    b.ToTable("Episodes");
+                });
+
+            modelBuilder.Entity("DACS.Models.Exclusive", b =>
+                {
+                    b.Property<int>("ExclusiveID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ExclusiveID"));
+
+                    b.Property<string>("ExclusiveDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ExclusiveName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("ExclusivePrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("UserID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("ValidityPeriod")
+                        .HasColumnType("int");
+
+                    b.HasKey("ExclusiveID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("Exclusives");
+                });
+
+            modelBuilder.Entity("DACS.Models.Playlist", b =>
+                {
+                    b.Property<int>("PlaylistID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PlaylistID"));
+
+                    b.Property<string>("PlaylistName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("PlaylistID");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Playlists");
+                });
+
+            modelBuilder.Entity("DACS.Models.Podcast", b =>
+                {
+                    b.Property<int>("PodcastID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PodcastID"));
+
+                    b.Property<int>("ArtistID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Duration")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("PlaylistID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("ReleaseDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TopicID")
+                        .HasColumnType("int");
+
+                    b.HasKey("PodcastID");
+
+                    b.HasIndex("ArtistID");
+
+                    b.HasIndex("PlaylistID");
+
+                    b.HasIndex("TopicID");
+
+                    b.ToTable("Podcasts");
+                });
+
+            modelBuilder.Entity("DACS.Models.Rating", b =>
+                {
+                    b.Property<int>("RatingID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RatingID"));
+
+                    b.Property<int>("PodcastID")
+                        .HasColumnType("int");
+
+                    b.Property<float>("RatingValue")
+                        .HasColumnType("real");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("RatingID");
+
+                    b.HasIndex("PodcastID");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Ratings");
+                });
+
+            modelBuilder.Entity("DACS.Models.Subscription", b =>
+                {
+                    b.Property<int>("SubscriptionID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SubscriptionID"));
+
+                    b.Property<int>("PodcastID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("SubscriptionDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("SubscriptionID");
+
+                    b.HasIndex("PodcastID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("Subscriptions");
+                });
+
+            modelBuilder.Entity("DACS.Models.Topic", b =>
+                {
+                    b.Property<int>("TopicID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TopicID"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TopicName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("TopicID");
+
+                    b.ToTable("Topics");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
@@ -227,6 +487,119 @@ namespace DACS.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("DACS.Models.Comment", b =>
+                {
+                    b.HasOne("DACS.Models.Podcast", "Podcast")
+                        .WithMany()
+                        .HasForeignKey("PodcastID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DACS.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Podcast");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("DACS.Models.Episode", b =>
+                {
+                    b.HasOne("DACS.Models.Podcast", "Podcast")
+                        .WithMany()
+                        .HasForeignKey("PodcastID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Podcast");
+                });
+
+            modelBuilder.Entity("DACS.Models.Exclusive", b =>
+                {
+                    b.HasOne("DACS.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("DACS.Models.Playlist", b =>
+                {
+                    b.HasOne("DACS.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("DACS.Models.Podcast", b =>
+                {
+                    b.HasOne("DACS.Models.Artist", "Artist")
+                        .WithMany()
+                        .HasForeignKey("ArtistID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DACS.Models.Playlist", null)
+                        .WithMany("Podcasts")
+                        .HasForeignKey("PlaylistID");
+
+                    b.HasOne("DACS.Models.Topic", "Topic")
+                        .WithMany()
+                        .HasForeignKey("TopicID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Artist");
+
+                    b.Navigation("Topic");
+                });
+
+            modelBuilder.Entity("DACS.Models.Rating", b =>
+                {
+                    b.HasOne("DACS.Models.Podcast", "Podcast")
+                        .WithMany()
+                        .HasForeignKey("PodcastID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DACS.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Podcast");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("DACS.Models.Subscription", b =>
+                {
+                    b.HasOne("DACS.Models.Podcast", "Podcast")
+                        .WithMany()
+                        .HasForeignKey("PodcastID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DACS.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Podcast");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -276,6 +649,11 @@ namespace DACS.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("DACS.Models.Playlist", b =>
+                {
+                    b.Navigation("Podcasts");
                 });
 #pragma warning restore 612, 618
         }

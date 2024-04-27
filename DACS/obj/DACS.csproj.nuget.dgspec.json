@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Study\\DACS\\foundation-project\\DACS\\DACS.csproj": {}
+    "D:\\C#\\foundation-project\\DACS\\DACS.csproj": {}
   },
   "projects": {
-    "C:\\Study\\DACS\\foundation-project\\DACS\\DACS.csproj": {
+    "D:\\C#\\foundation-project\\DACS\\DACS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Study\\DACS\\foundation-project\\DACS\\DACS.csproj",
+        "projectUniqueName": "D:\\C#\\foundation-project\\DACS\\DACS.csproj",
         "projectName": "DACS",
-        "projectPath": "C:\\Study\\DACS\\foundation-project\\DACS\\DACS.csproj",
-        "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-        "outputPath": "C:\\Study\\DACS\\foundation-project\\DACS\\obj\\",
+        "projectPath": "D:\\C#\\foundation-project\\DACS\\DACS.csproj",
+        "packagesPath": "C:\\Users\\Le Duy\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\foundation-project\\DACS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Le Duy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
