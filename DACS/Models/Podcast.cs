@@ -7,7 +7,7 @@
         public string Description { get; set; }
         public string ImageUrl { get; set; }
         public DateTime ReleaseDate { get; set; }
-        public int Duration { get; set;}
+        public int EpNum { get; set;}
         public int ArtistID { get; set; }
         public Artist? Artist { get; set; }
         public int TopicID { get; set; }

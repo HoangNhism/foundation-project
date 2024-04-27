@@ -6,7 +6,7 @@
         public string PlaylistName { get; set;}
         public string UserId { get; set; }
         public ApplicationUser? User { get; set; }
-        public List<Podcast> Podcasts { get; set; }
+        public List<Episode> Episodes { get; set; }
 
     }
 }
