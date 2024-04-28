@@ -8,6 +8,7 @@
         public string? ImageUrl { get; set;}
         public DateTime ReleaseDate { get; set; }
         public int Duraion { get; set; }
+        public string EpImage {  get; set; }
         public int PodcastID { get; set; }
         public Podcast? Podcast { get; set; }
     }
