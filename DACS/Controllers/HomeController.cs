@@ -7,15 +7,26 @@ namespace DACS.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _context;
+        private readonly IPodcastRepo _podcastRepo;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IPodcastRepo podcastRepo, ApplicationDbContext context)
         {
             _logger = logger;
+            _podcastRepo = podcastRepo;
+            _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            List<Podcast> podcasts;
+            podcasts = (await _podcastRepo.GetAllAsync()).ToList();
+            podcasts = podcasts.OrderBy(p => p.Title).ToList();
+            var viewModel = new PodcastViewModel
+            {
+                Podcasts = podcasts
+            };
+            return View(viewModel);
         }
 
         public IActionResult Privacy()

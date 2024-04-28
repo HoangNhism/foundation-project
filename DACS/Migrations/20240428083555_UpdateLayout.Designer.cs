@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DACS.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240427173836_UpdateRepo")]
-    partial class UpdateRepo
+    [Migration("20240428083555_UpdateLayout")]
+    partial class UpdateLayout
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

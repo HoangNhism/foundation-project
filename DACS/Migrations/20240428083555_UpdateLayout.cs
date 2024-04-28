@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace DACS.Migrations
 {
     /// <inheritdoc />
-    public partial class intial : Migration
+    public partial class UpdateLayout : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -17,7 +17,8 @@ namespace DACS.Migrations
                 {
                     ArtistID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    ArtistName = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    ArtistName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    AvatarURL = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -72,7 +73,8 @@ namespace DACS.Migrations
                     TopicID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     TopicName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ImageURL = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -238,10 +240,9 @@ namespace DACS.Migrations
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ReleaseDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Duration = table.Column<int>(type: "int", nullable: false),
+                    EpNum = table.Column<int>(type: "int", nullable: false),
                     ArtistID = table.Column<int>(type: "int", nullable: false),
-                    TopicID = table.Column<int>(type: "int", nullable: false),
-                    PlaylistID = table.Column<int>(type: "int", nullable: true)
+                    TopicID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -253,43 +254,10 @@ namespace DACS.Migrations
                         principalColumn: "ArtistID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Podcasts_Playlists_PlaylistID",
-                        column: x => x.PlaylistID,
-                        principalTable: "Playlists",
-                        principalColumn: "PlaylistID");
-                    table.ForeignKey(
                         name: "FK_Podcasts_Topics_TopicID",
                         column: x => x.TopicID,
                         principalTable: "Topics",
                         principalColumn: "TopicID",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Comments",
-                columns: table => new
-                {
-                    CommentID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    CommentText = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CommentDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    PodcastID = table.Column<int>(type: "int", nullable: false),
-                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Comments", x => x.CommentID);
-                    table.ForeignKey(
-                        name: "FK_Comments_AspNetUsers_UserId",
-                        column: x => x.UserId,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Comments_Podcasts_PodcastID",
-                        column: x => x.PodcastID,
-                        principalTable: "Podcasts",
-                        principalColumn: "PodcastID",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -300,45 +268,24 @@ namespace DACS.Migrations
                     EpisodeId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    FileLocation = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ReleaseDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Duraion = table.Column<int>(type: "int", nullable: false),
-                    PodcastID = table.Column<int>(type: "int", nullable: false)
+                    EpImage = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PodcastID = table.Column<int>(type: "int", nullable: false),
+                    PlaylistID = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Episodes", x => x.EpisodeId);
                     table.ForeignKey(
+                        name: "FK_Episodes_Playlists_PlaylistID",
+                        column: x => x.PlaylistID,
+                        principalTable: "Playlists",
+                        principalColumn: "PlaylistID");
+                    table.ForeignKey(
                         name: "FK_Episodes_Podcasts_PodcastID",
-                        column: x => x.PodcastID,
-                        principalTable: "Podcasts",
-                        principalColumn: "PodcastID",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Ratings",
-                columns: table => new
-                {
-                    RatingID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    RatingValue = table.Column<float>(type: "real", nullable: false),
-                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    PodcastID = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Ratings", x => x.RatingID);
-                    table.ForeignKey(
-                        name: "FK_Ratings_AspNetUsers_UserId",
-                        column: x => x.UserId,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Ratings_Podcasts_PodcastID",
                         column: x => x.PodcastID,
                         principalTable: "Podcasts",
                         principalColumn: "PodcastID",
@@ -369,6 +316,61 @@ namespace DACS.Migrations
                         column: x => x.PodcastID,
                         principalTable: "Podcasts",
                         principalColumn: "PodcastID",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Comments",
+                columns: table => new
+                {
+                    CommentID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    CommentText = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CommentDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    EpisodeID = table.Column<int>(type: "int", nullable: false),
+                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Comments", x => x.CommentID);
+                    table.ForeignKey(
+                        name: "FK_Comments_AspNetUsers_UserId",
+                        column: x => x.UserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Comments_Episodes_EpisodeID",
+                        column: x => x.EpisodeID,
+                        principalTable: "Episodes",
+                        principalColumn: "EpisodeId",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Ratings",
+                columns: table => new
+                {
+                    RatingID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    RatingValue = table.Column<float>(type: "real", nullable: false),
+                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    EpisodeID = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Ratings", x => x.RatingID);
+                    table.ForeignKey(
+                        name: "FK_Ratings_AspNetUsers_UserId",
+                        column: x => x.UserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Ratings_Episodes_EpisodeID",
+                        column: x => x.EpisodeID,
+                        principalTable: "Episodes",
+                        principalColumn: "EpisodeId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -412,14 +414,19 @@ namespace DACS.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Comments_PodcastID",
+                name: "IX_Comments_EpisodeID",
                 table: "Comments",
-                column: "PodcastID");
+                column: "EpisodeID");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Comments_UserId",
                 table: "Comments",
                 column: "UserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Episodes_PlaylistID",
+                table: "Episodes",
+                column: "PlaylistID");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Episodes_PodcastID",
@@ -442,19 +449,14 @@ namespace DACS.Migrations
                 column: "ArtistID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Podcasts_PlaylistID",
-                table: "Podcasts",
-                column: "PlaylistID");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Podcasts_TopicID",
                 table: "Podcasts",
                 column: "TopicID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Ratings_PodcastID",
+                name: "IX_Ratings_EpisodeID",
                 table: "Ratings",
-                column: "PodcastID");
+                column: "EpisodeID");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Ratings_UserId",
@@ -494,9 +496,6 @@ namespace DACS.Migrations
                 name: "Comments");
 
             migrationBuilder.DropTable(
-                name: "Episodes");
-
-            migrationBuilder.DropTable(
                 name: "Exclusives");
 
             migrationBuilder.DropTable(
@@ -509,19 +508,22 @@ namespace DACS.Migrations
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
-                name: "Podcasts");
-
-            migrationBuilder.DropTable(
-                name: "Artists");
+                name: "Episodes");
 
             migrationBuilder.DropTable(
                 name: "Playlists");
 
             migrationBuilder.DropTable(
-                name: "Topics");
+                name: "Podcasts");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
+
+            migrationBuilder.DropTable(
+                name: "Artists");
+
+            migrationBuilder.DropTable(
+                name: "Topics");
         }
     }
 }

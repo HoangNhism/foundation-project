@@ -24,6 +24,8 @@ builder.Services.AddAuthentication().AddFacebook(facebookOptions =>
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddScoped<IPodcastRepo, EFPodcastRepo>();
+
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
 .AddDefaultTokenProviders()
 .AddDefaultUI()
