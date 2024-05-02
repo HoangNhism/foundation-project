@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|c:\\study\\dacs\\foundation-project\\dacs\\models\\episode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:models\\episode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|c:\\study\\dacs\\foundation-project\\dacs\\views\\home\\podcastlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:views\\home\\podcastlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|c:\\study\\dacs\\foundation-project\\dacs\\models\\efpodcastrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:models\\efpodcastrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|c:\\study\\dacs\\foundation-project\\dacs\\models\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:models\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Episode.cs",
+              "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Models\\Episode.cs",
+              "RelativeDocumentMoniker": "Models\\Episode.cs",
+              "ToolTip": "C:\\Study\\DACS\\foundation-project\\DACS\\Models\\Episode.cs",
+              "RelativeToolTip": "Models\\Episode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T06:01:44.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PodcastList.cshtml",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Views\\Home\\PodcastList.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\PodcastList.cshtml",
@@ -50,25 +63,11 @@
               "RelativeToolTip": "Views\\Home\\PodcastList.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T05:46:40.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T05:46:40.815Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Podcast.cs",
-              "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Models\\Podcast.cs",
-              "RelativeDocumentMoniker": "Models\\Podcast.cs",
-              "ToolTip": "C:\\Study\\DACS\\foundation-project\\DACS\\Models\\Podcast.cs",
-              "RelativeToolTip": "Models\\Podcast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T05:35:55.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAowEAAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T17:24:58.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-27T17:24:58.041Z"
             },
             {
               "$type": "Document",
@@ -87,14 +85,14 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Study\\DACS\\foundation-project\\DACS\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFUAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-27T17:45:10.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EFPodcastRepo.cs",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Models\\EFPodcastRepo.cs",
               "RelativeDocumentMoniker": "Models\\EFPodcastRepo.cs",
@@ -102,12 +100,11 @@
               "RelativeToolTip": "Models\\EFPodcastRepo.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAIwC4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T11:46:19.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T11:46:19.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Study\\DACS\\foundation-project\\DACS\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -115,8 +112,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAANIAAAAAAAAAAAAAAOkAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T08:53:39.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T08:53:39.423Z"
             }
           ]
         }
