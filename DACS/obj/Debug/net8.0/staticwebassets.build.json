@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hZwz+kNKbG1ytRzkS632L4UpfxBH4c7YarQ6QTsabaY=",
+  "Hash": "IItQ1nXFAVO+BB+j4337BeS/3BvhlnZgBixi+AqjjwQ=",
   "Source": "DACS",
   "BasePath": "_content/DACS",
   "Mode": "Default",
@@ -737,6 +737,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\PodcastImg\\Webthethao.jpg"
+    },
+    {
+      "Identity": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\TopicImg\\Chua_Lanh.jpg",
+      "SourceId": "DACS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\",
+      "BasePath": "_content/DACS",
+      "RelativePath": "images/TopicImg/Chua_Lanh.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\TopicImg\\Chua_Lanh.jpg"
     },
     {
       "Identity": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\js\\aos.js",

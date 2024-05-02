@@ -137,6 +137,10 @@
       "PackagePath": "staticwebassets\\images\\PodcastImg\\Webthethao.jpg"
     },
     {
+      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\TopicImg\\Chua_Lanh.jpg",
+      "PackagePath": "staticwebassets\\images\\TopicImg\\Chua_Lanh.jpg"
+    },
+    {
       "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\hero_bg_1.jpg",
       "PackagePath": "staticwebassets\\images\\hero_bg_1.jpg"
     },

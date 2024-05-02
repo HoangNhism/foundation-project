@@ -25,6 +25,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<IPodcastRepo, EFPodcastRepo>();
+builder.Services.AddScoped<IEpisodeRepo, EFEpisodeRepo>();
+builder.Services.AddScoped<IArtistRepo, EFArtistRepo>();
+builder.Services.AddScoped<ITopicRepo, EFTopicRepo>();
+
 
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
 .AddDefaultTokenProviders()
