@@ -19,7 +19,8 @@ namespace DACS.Controllers
         {
             _logger = logger;
             _podcastRepo = podcastRepo;
-            _context = context;            _episodeRepo = episodeRepo;
+            _context = context;
+            _episodeRepo = episodeRepo;
             _artistRepo = artistRepo;
             _topicRepo = topicRepo;
         }
