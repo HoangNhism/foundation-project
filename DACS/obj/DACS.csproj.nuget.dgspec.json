@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\DACS.csproj": {}
+    "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\DACS.csproj": {}
   },
   "projects": {
-    "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\DACS.csproj": {
+    "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\DACS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\DACS.csproj",
+        "projectUniqueName": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\DACS.csproj",
         "projectName": "DACS",
-        "projectPath": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\DACS.csproj",
+        "projectPath": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\DACS.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\obj\\",
+        "outputPath": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -5,5 +5,6 @@
         public int TopicID { get; set; }
         public string TopicName { get; set; }
         public string Description { get; set; }
+        public string ImageURL { get; set; }
     }
 }

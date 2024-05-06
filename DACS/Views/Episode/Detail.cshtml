@@ -1,0 +1,108 @@
+﻿@using System.Security.Claims
+@model DACS.ViewModels.ViewModelComment
+@{
+    ViewData["Title"] = "Episodes";
+}
+<div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
+    <div class="image" style="background-image : url('/@Model.episodes.EpImage');width:1000px;height:350px"></div>
+    <div class="text">
+        <h3 class="font-weight-light"><a href="/Episode">@Model.episodes.Title</a></h3>
+        <div class="text-white mb-3">
+            <span class="text-black-opacity-05">
+                <small> <span class="sep">/</span> @Model.episodes.ReleaseDate.ToShortDateString() <span class="sep">/</span> @Model.episodes.Duraion</small>
+            </span>
+        </div>
+        <p class="mb-4">@Model.episodes.Description</p>
+        <div class="player">
+            <audio id="player2" preload="none" controls style="max-width: 100%">
+                <source src="~/@Model.episodes.AudioUrl" type="audio/mp3">
+            </audio>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h3>Đánh giá</h3>
+            <!-- Form đánh giá -->
+            <form id="rateForm" asp-controller="Episode" asp-action="RateEpisode" method="post">
+                <input type="hidden" name="episodeId" value="@Model.episodes.EpisodeId">
+                <div class="input-group mb-3">
+                    <input id="ratingInput" type="number" name="ratingValue" class="form-control" min="1" max="5" step="1" required>
+                    <div class="input-group-append">
+                        <button id="rateButton" type="submit" class="btn btn-primary">Gửi đánh giá</button>
+                    </div>
+                </div>
+            </form>
+
+            <div id="successAlert" class="alert alert-success d-none" role="alert">
+                Đánh giá thành công!
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-8">
+            <h3>Bình luận</h3>
+            <!-- Danh sách bình luận -->
+            <div id="comment-section">
+                @foreach (var comment in Model.Comments)
+                {
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <!-- Hình đại diện của người dùng -->
+                            @if (!string.IsNullOrEmpty(comment.UserProfileImageUrl))
+                            {
+                                <img src="@comment.UserProfileImageUrl" alt="Avatar" class="rounded-circle" style="width: 40px; height: 40px;">
+                            }
+                            <!-- Tên người dùng -->
+                            <span class="font-weight-bold">@comment.UserName</span>
+                            <!-- Thời gian bình luận -->
+                            <span class="text-muted">- @comment.Comment.CommentDate.ToString("dd/MM/yyyy HH:mm")</span>
+                            <!-- Nội dung bình luận -->
+                            <p class="mt-2 mb-0">@comment.Comment.CommentText</p>
+                            <!-- Nút Xoá (nếu là bình luận của người dùng đã đăng nhập) -->
+                            @if (User.Identity.IsAuthenticated && comment.UserId == User.FindFirstValue(ClaimTypes.NameIdentifier))
+                            {
+                                <form asp-controller="Episode" asp-action="DeleteComment" method="post" class="mt-2">
+                                    <input type="hidden" name="commentId" value="@comment.Comment.CommentID" />
+                                    <button type="submit" class="btn btn-sm btn-danger">Xoá</button>
+                                </form>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+            <!-- Form bình luận mới -->
+            <form asp-controller="Episode" asp-action="AddComment" asp-route-episodeId="@Model.episodes.EpisodeId" method="post">
+                <div class="form-group">
+                    <textarea id="commentText" name="commentText" class="form-control" rows="3" placeholder="Nhập bình luận của bạn" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Gửi bình luận</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    document.getElementById('commentText').addEventListener('input', function () {
+        this.style.height = 'auto';
+        this.style.height = (this.scrollHeight) + 'px';
+    });
+    document.getElementById('rateForm').addEventListener('submit', function (event) {
+        event.preventDefault(); // Ngăn chặn gửi form mặc định
+
+        // Lấy giá trị rating từ input
+        var rating = document.getElementById('ratingInput').value;
+
+        // Kích hoạt thông báo thành công
+        document.getElementById('successAlert').classList.remove('d-none');
+
+        // Chờ 2 giây và chuyển hướng người dùng đến trang mới
+        setTimeout(function () {
+            document.getElementById('rateForm').submit(); // Gửi form đã xác nhận
+        }, 5000);
+    });
+</script>
+

@@ -1,815 +1,811 @@
 {
   "Files": [
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DACS.bundle.scp.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DACS.bundle.scp.css",
       "PackagePath": "staticwebassets\\DACS.bundle.scp.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\HaveAShip EP87.mp3",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\Video\\EpisodeVid\\Vietcetera\\HAVE A SIP\\HAS EP87.mp3",
+      "PackagePath": "staticwebassets\\Video\\EpisodeVid\\Vietcetera\\HAVE A SIP\\HAS EP87.mp3"
+    },
+    {
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\Video\\HaveAShip EP87.mp3",
       "PackagePath": "staticwebassets\\Video\\HaveAShip EP87.mp3"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\LunchBreak S2 Ep6.mp3",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\Video\\LunchBreak S2 Ep6.mp3",
       "PackagePath": "staticwebassets\\Video\\LunchBreak S2 Ep6.mp3"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\TheBreakerEp3.mp3",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\Video\\TheBreakerEp3.mp3",
       "PackagePath": "staticwebassets\\Video\\TheBreakerEp3.mp3"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\TheMoneyDate SS2 Ep14.mp3",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\Video\\TheMoneyDate SS2 Ep14.mp3",
       "PackagePath": "staticwebassets\\Video\\TheMoneyDate SS2 Ep14.mp3"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\css\\aos.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\css\\aos.css",
       "PackagePath": "staticwebassets\\css\\aos.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\css\\jquery-ui.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\css\\jquery-ui.css",
       "PackagePath": "staticwebassets\\css\\jquery-ui.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\css\\magnific-popup.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\css\\magnific-popup.css",
       "PackagePath": "staticwebassets\\css\\magnific-popup.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\css\\mediaelementplayer.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\css\\mediaelementplayer.css",
       "PackagePath": "staticwebassets\\css\\mediaelementplayer.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\css\\owl.carousel.min.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\css\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\css\\owl.theme.default.min.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\css\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\css\\owl.theme.default.min.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\css\\site.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\css\\style.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\favicon.ico",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\Read Me.txt",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\Read Me.txt",
       "PackagePath": "staticwebassets\\fonts\\icomoon\\Read Me.txt"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\demo-files\\demo.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\demo-files\\demo.css",
       "PackagePath": "staticwebassets\\fonts\\icomoon\\demo-files\\demo.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\demo-files\\demo.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\demo-files\\demo.js",
       "PackagePath": "staticwebassets\\fonts\\icomoon\\demo-files\\demo.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\demo.html",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\demo.html",
       "PackagePath": "staticwebassets\\fonts\\icomoon\\demo.html"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.eot",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.eot",
       "PackagePath": "staticwebassets\\fonts\\icomoon\\fonts\\icomoon.eot"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.svg",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.svg",
       "PackagePath": "staticwebassets\\fonts\\icomoon\\fonts\\icomoon.svg"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.ttf",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.ttf",
       "PackagePath": "staticwebassets\\fonts\\icomoon\\fonts\\icomoon.ttf"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.woff",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.woff",
       "PackagePath": "staticwebassets\\fonts\\icomoon\\fonts\\icomoon.woff"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\selection.json",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\selection.json",
       "PackagePath": "staticwebassets\\fonts\\icomoon\\selection.json"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\style.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\fonts\\icomoon\\style.css",
       "PackagePath": "staticwebassets\\fonts\\icomoon\\style.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\BLVAnhQuang.png",
-      "PackagePath": "staticwebassets\\images\\BLVAnhQuang.png"
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\images\\ArtistsImg\\Guest\\ThayMinhNiem.jpg",
+      "PackagePath": "staticwebassets\\images\\ArtistsImg\\Guest\\ThayMinhNiem.jpg"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\Shinphamm.jpg",
-      "PackagePath": "staticwebassets\\images\\Shinphamm.jpg"
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\images\\ArtistsImg\\Host\\BLVAnhQuang.png",
+      "PackagePath": "staticwebassets\\images\\ArtistsImg\\Host\\BLVAnhQuang.png"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\ThayMinhNiem.jpg",
-      "PackagePath": "staticwebassets\\images\\ThayMinhNiem.jpg"
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\images\\ArtistsImg\\Host\\Shinphamm.jpg",
+      "PackagePath": "staticwebassets\\images\\ArtistsImg\\Host\\Shinphamm.jpg"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\Vietcetera.png",
-      "PackagePath": "staticwebassets\\images\\Vietcetera.png"
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\images\\ArtistsImg\\Host\\ThuyMinh.jpg",
+      "PackagePath": "staticwebassets\\images\\ArtistsImg\\Host\\ThuyMinh.jpg"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\Webthethao.jpg",
-      "PackagePath": "staticwebassets\\images\\Webthethao.jpg"
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\images\\CoverImg\\Vietcetera\\HAVE A SIP\\HAVE A SIP.jpg",
+      "PackagePath": "staticwebassets\\images\\CoverImg\\Vietcetera\\HAVE A SIP\\HAVE A SIP.jpg"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\hero_bg_1.jpg",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\images\\CoverImg\\Vietcetera\\HAVE A SIP\\img_3.jpg",
+      "PackagePath": "staticwebassets\\images\\CoverImg\\Vietcetera\\HAVE A SIP\\img_3.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\images\\CoverImg\\Vietcetera\\img_1.jpg",
+      "PackagePath": "staticwebassets\\images\\CoverImg\\Vietcetera\\img_1.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\images\\CoverImg\\img_2.jpg",
+      "PackagePath": "staticwebassets\\images\\CoverImg\\img_2.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\images\\EpisodeImg\\Vietcetera\\HAVE A SIP\\HAS_EP87.jpg",
+      "PackagePath": "staticwebassets\\images\\EpisodeImg\\Vietcetera\\HAVE A SIP\\HAS_EP87.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\images\\PodcastImg\\Vietcetera.png",
+      "PackagePath": "staticwebassets\\images\\PodcastImg\\Vietcetera.png"
+    },
+    {
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\images\\PodcastImg\\Webthethao.jpg",
+      "PackagePath": "staticwebassets\\images\\PodcastImg\\Webthethao.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\images\\TopicImg\\Chua_Lanh.jpg",
+      "PackagePath": "staticwebassets\\images\\TopicImg\\Chua_Lanh.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\images\\hero_bg_1.jpg",
       "PackagePath": "staticwebassets\\images\\hero_bg_1.jpg"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\hero_bg_2.jpg",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\images\\hero_bg_2.jpg",
       "PackagePath": "staticwebassets\\images\\hero_bg_2.jpg"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\hero_bg_3.jpg",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\images\\hero_bg_3.jpg",
       "PackagePath": "staticwebassets\\images\\hero_bg_3.jpg"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\img_1.jpg",
-      "PackagePath": "staticwebassets\\images\\img_1.jpg"
-    },
-    {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\img_2.jpg",
-      "PackagePath": "staticwebassets\\images\\img_2.jpg"
-    },
-    {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\img_3.jpg",
-      "PackagePath": "staticwebassets\\images\\img_3.jpg"
-    },
-    {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\img_4.jpg",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\images\\img_4.jpg",
       "PackagePath": "staticwebassets\\images\\img_4.jpg"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\img_5.jpg",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\images\\img_5.jpg",
       "PackagePath": "staticwebassets\\images\\img_5.jpg"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\person_1.jpg",
-      "PackagePath": "staticwebassets\\images\\person_1.jpg"
-    },
-    {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\person_2.jpg",
-      "PackagePath": "staticwebassets\\images\\person_2.jpg"
-    },
-    {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\person_3.jpg",
-      "PackagePath": "staticwebassets\\images\\person_3.jpg"
-    },
-    {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\person_4.jpg",
-      "PackagePath": "staticwebassets\\images\\person_4.jpg"
-    },
-    {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\person_5.jpg",
-      "PackagePath": "staticwebassets\\images\\person_5.jpg"
-    },
-    {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\person_6.jpg",
-      "PackagePath": "staticwebassets\\images\\person_6.jpg"
-    },
-    {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\js\\aos.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\js\\aos.js",
       "PackagePath": "staticwebassets\\js\\aos.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\js\\jquery-3.3.1.min.js",
       "PackagePath": "staticwebassets\\js\\jquery-3.3.1.min.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\js\\jquery-migrate-3.0.1.min.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\js\\jquery-migrate-3.0.1.min.js",
       "PackagePath": "staticwebassets\\js\\jquery-migrate-3.0.1.min.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\js\\jquery-ui.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\js\\jquery-ui.js",
       "PackagePath": "staticwebassets\\js\\jquery-ui.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\js\\jquery.countdown.min.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\js\\jquery.countdown.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.countdown.min.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\js\\jquery.magnific-popup.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\js\\jquery.stellar.min.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\js\\jquery.stellar.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.stellar.min.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\js\\main.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\js\\mediaelement-and-player.min.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\js\\mediaelement-and-player.min.js",
       "PackagePath": "staticwebassets\\js\\mediaelement-and-player.min.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\js\\owl.carousel.min.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\js\\popper.min.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\js\\popper.min.js",
       "PackagePath": "staticwebassets\\js\\popper.min.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\js\\site.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\js\\slick.min.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\js\\slick.min.js",
       "PackagePath": "staticwebassets\\js\\slick.min.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\prepros-6.config",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\prepros-6.config",
       "PackagePath": "staticwebassets\\prepros-6.config"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\_site-base.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\_site-base.scss",
       "PackagePath": "staticwebassets\\scss\\_site-base.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\_site-blocks.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\_site-blocks.scss",
       "PackagePath": "staticwebassets\\scss\\_site-blocks.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\_site-navbar.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\_site-navbar.scss",
       "PackagePath": "staticwebassets\\scss\\_site-navbar.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_alert.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_alert.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_badge.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_badge.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_badge.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_breadcrumb.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_breadcrumb.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_button-group.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_button-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_button-group.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_buttons.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_buttons.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_card.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_card.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_card.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_carousel.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_carousel.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_carousel.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_close.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_close.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_close.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_code.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_code.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_code.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_custom-forms.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_custom-forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_custom-forms.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_dropdown.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_dropdown.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_dropdown.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_forms.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_forms.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_functions.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_functions.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_functions.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_grid.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_grid.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_images.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_images.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_images.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_input-group.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_input-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_input-group.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_jumbotron.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_jumbotron.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_jumbotron.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_list-group.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_list-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_list-group.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_media.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_media.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_media.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_mixins.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_mixins.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_mixins.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_modal.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_modal.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_modal.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_nav.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_nav.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_nav.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_navbar.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_navbar.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_navbar.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_pagination.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_pagination.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_pagination.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_popover.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_popover.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_popover.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_print.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_print.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_print.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_progress.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_progress.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_progress.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_reboot.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_reboot.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_reboot.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_root.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_root.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_root.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_tables.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_tables.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_tables.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_tooltip.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_tooltip.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_tooltip.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_transitions.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_transitions.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_transitions.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_type.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_type.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_type.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_utilities.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_utilities.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_utilities.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_variables.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\_variables.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_variables.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\bootstrap-grid.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\bootstrap-grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap-grid.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\bootstrap-reboot.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap-reboot.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\bootstrap.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\bootstrap.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_alert.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_alert.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_background-variant.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_background-variant.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_badge.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_badge.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_badge.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_border-radius.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_border-radius.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_box-shadow.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_box-shadow.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_breakpoints.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_buttons.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_caret.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_caret.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_clearfix.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_clearfix.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_float.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_float.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_float.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_forms.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_forms.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_gradients.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_grid-framework.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_grid-framework.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_grid.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_grid.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_hover.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_hover.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_hover.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_image.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_image.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_image.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_list-group.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_lists.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_lists.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_lists.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_nav-divider.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_nav-divider.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_pagination.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_reset-text.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_reset-text.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_resize.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_resize.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_resize.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_screen-reader.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_screen-reader.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_size.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_size.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_size.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_table-row.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_table-row.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_text-hide.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_text-hide.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_text-truncate.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_text-truncate.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_transition.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_transition.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_transition.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\mixins\\_visibility.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_visibility.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_align.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_align.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_align.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_background.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_background.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_background.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_borders.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_borders.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_borders.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_clearfix.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_clearfix.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_display.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_display.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_display.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_embed.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_embed.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_embed.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_flex.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_flex.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_flex.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_float.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_float.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_float.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_position.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_position.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_position.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_screenreaders.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_screenreaders.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_shadows.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_shadows.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_sizing.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_sizing.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_spacing.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_spacing.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_text.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_text.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_text.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\bootstrap\\utilities\\_visibility.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_visibility.scss"
     },
     {
-      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\scss\\style.scss",
+      "Id": "D:\\Hoc_Tap\\DACS\\New folder\\New folder (2)\\foundation-project\\DACS\\wwwroot\\scss\\style.scss",
       "PackagePath": "staticwebassets\\scss\\style.scss"
     },
     {

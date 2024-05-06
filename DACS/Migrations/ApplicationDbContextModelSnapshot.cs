@@ -106,6 +106,9 @@ namespace DACS.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("AvatarURL")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("ArtistID");
 
                     b.ToTable("Artists");
@@ -126,7 +129,7 @@ namespace DACS.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PodcastID")
+                    b.Property<int>("EpisodeID")
                         .HasColumnType("int");
 
                     b.Property<string>("UserId")
@@ -135,7 +138,7 @@ namespace DACS.Migrations
 
                     b.HasKey("CommentID");
 
-                    b.HasIndex("PodcastID");
+                    b.HasIndex("EpisodeID");
 
                     b.HasIndex("UserId");
 
@@ -150,6 +153,9 @@ namespace DACS.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("EpisodeId"));
 
+                    b.Property<string>("AudioUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -157,8 +163,12 @@ namespace DACS.Migrations
                     b.Property<int>("Duraion")
                         .HasColumnType("int");
 
-                    b.Property<string>("ImageUrl")
+                    b.Property<string>("EpImage")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("PlaylistID")
+                        .HasColumnType("int");
 
                     b.Property<int>("PodcastID")
                         .HasColumnType("int");
@@ -171,6 +181,8 @@ namespace DACS.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("EpisodeId");
+
+                    b.HasIndex("PlaylistID");
 
                     b.HasIndex("PodcastID");
 
@@ -248,15 +260,12 @@ namespace DACS.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Duration")
+                    b.Property<int>("EpNum")
                         .HasColumnType("int");
 
                     b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("PlaylistID")
-                        .HasColumnType("int");
 
                     b.Property<DateTime>("ReleaseDate")
                         .HasColumnType("datetime2");
@@ -272,8 +281,6 @@ namespace DACS.Migrations
 
                     b.HasIndex("ArtistID");
 
-                    b.HasIndex("PlaylistID");
-
                     b.HasIndex("TopicID");
 
                     b.ToTable("Podcasts");
@@ -287,7 +294,7 @@ namespace DACS.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RatingID"));
 
-                    b.Property<int>("PodcastID")
+                    b.Property<int>("EpisodeID")
                         .HasColumnType("int");
 
                     b.Property<float>("RatingValue")
@@ -299,7 +306,7 @@ namespace DACS.Migrations
 
                     b.HasKey("RatingID");
 
-                    b.HasIndex("PodcastID");
+                    b.HasIndex("EpisodeID");
 
                     b.HasIndex("UserId");
 
@@ -342,6 +349,10 @@ namespace DACS.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TopicID"));
 
                     b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageURL")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -489,9 +500,9 @@ namespace DACS.Migrations
 
             modelBuilder.Entity("DACS.Models.Comment", b =>
                 {
-                    b.HasOne("DACS.Models.Podcast", "Podcast")
+                    b.HasOne("DACS.Models.Episode", "Episode")
                         .WithMany()
-                        .HasForeignKey("PodcastID")
+                        .HasForeignKey("EpisodeID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -501,13 +512,17 @@ namespace DACS.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Podcast");
+                    b.Navigation("Episode");
 
                     b.Navigation("User");
                 });
 
             modelBuilder.Entity("DACS.Models.Episode", b =>
                 {
+                    b.HasOne("DACS.Models.Playlist", null)
+                        .WithMany("Episodes")
+                        .HasForeignKey("PlaylistID");
+
                     b.HasOne("DACS.Models.Podcast", "Podcast")
                         .WithMany()
                         .HasForeignKey("PodcastID")
@@ -547,10 +562,6 @@ namespace DACS.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DACS.Models.Playlist", null)
-                        .WithMany("Podcasts")
-                        .HasForeignKey("PlaylistID");
-
                     b.HasOne("DACS.Models.Topic", "Topic")
                         .WithMany()
                         .HasForeignKey("TopicID")
@@ -564,9 +575,9 @@ namespace DACS.Migrations
 
             modelBuilder.Entity("DACS.Models.Rating", b =>
                 {
-                    b.HasOne("DACS.Models.Podcast", "Podcast")
+                    b.HasOne("DACS.Models.Episode", "Episode")
                         .WithMany()
-                        .HasForeignKey("PodcastID")
+                        .HasForeignKey("EpisodeID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -576,7 +587,7 @@ namespace DACS.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Podcast");
+                    b.Navigation("Episode");
 
                     b.Navigation("User");
                 });
@@ -653,7 +664,7 @@ namespace DACS.Migrations
 
             modelBuilder.Entity("DACS.Models.Playlist", b =>
                 {
-                    b.Navigation("Podcasts");
+                    b.Navigation("Episodes");
                 });
 #pragma warning restore 612, 618
         }

@@ -951,3 +951,20 @@ a {
     background: #f23a2e;
     color: #fff;
     border: 1px solid transparent; }
+.star-rating {
+    display: inline-block;
+    font-size: 16px;
+}
+
+    .star-rating .rating {
+        margin-right: 5px;
+    }
+
+    .star-rating i {
+        color: gold;
+    }
+
+    .star-rating .total-ratings {
+        color: #666;
+        margin-left: 5px;
+    }

@@ -4,7 +4,7 @@ namespace DACS.ViewModels
 {
     public class ViewModelComment
     {
-        public List<Comment> Comms { get; set; }
-
+        public List<CommentViewModel> Comments { get; set; }
+        public Episode episodes { get; set; }
     }
 }

@@ -4,5 +4,6 @@
     {
         public int ArtistID { get; set; }
         public string ArtistName { get; set;}
+        public string? AvatarURL { get; set; }
     }
 }
