@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "l4Tm3e7l8VAX7jRMNvdWhuivBBXfLxV22hCQW9Yav4I=",
+  "Hash": "e0GXGzQ2B4FJHs1K34x0K94O+9Ukm+BvLRDXvItcfXM=",
   "Source": "DACS",
   "BasePath": "_content/DACS",
   "Mode": "Default",
@@ -549,12 +549,12 @@
       "OriginalItemSpec": "wwwroot\\images\\CoverImg\\Vietcetera\\HAVE A SIP\\HAVE A SIP.jpg"
     },
     {
-      "Identity": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\CoverImg\\Vietcetera\\HAVE A SIP\\img_3.jpg",
+      "Identity": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\EpisodeImg\\img_1.jpg",
       "SourceId": "DACS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\",
       "BasePath": "_content/DACS",
-      "RelativePath": "images/CoverImg/Vietcetera/HAVE A SIP/img_3.jpg",
+      "RelativePath": "images/EpisodeImg/img_1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -565,26 +565,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\CoverImg\\Vietcetera\\HAVE A SIP\\img_3.jpg"
-    },
-    {
-      "Identity": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\CoverImg\\Vietcetera\\img_1.jpg",
-      "SourceId": "DACS",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\",
-      "BasePath": "_content/DACS",
-      "RelativePath": "images/CoverImg/Vietcetera/img_1.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\CoverImg\\Vietcetera\\img_1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\EpisodeImg\\img_1.jpg"
     },
     {
       "Identity": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\EpisodeImg\\Vietcetera\\HAVE A SIP\\HAS_EP87.jpg",
@@ -604,6 +585,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\EpisodeImg\\Vietcetera\\HAVE A SIP\\HAS_EP87.jpg"
+    },
+    {
+      "Identity": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\EpisodeImg\\Vietcetera\\HAVE A SIP\\img_3.jpg",
+      "SourceId": "DACS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\",
+      "BasePath": "_content/DACS",
+      "RelativePath": "images/EpisodeImg/Vietcetera/HAVE A SIP/img_3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\EpisodeImg\\Vietcetera\\HAVE A SIP\\img_3.jpg"
     },
     {
       "Identity": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\hero_bg_1.jpg",

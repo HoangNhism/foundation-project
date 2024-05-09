@@ -94,26 +94,6 @@ namespace DACS.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("DACS.Models.Artist", b =>
-                {
-                    b.Property<int>("ArtistID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ArtistID"));
-
-                    b.Property<string>("ArtistName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("AvatarURL")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("ArtistID");
-
-                    b.ToTable("Artists");
-                });
-
             modelBuilder.Entity("DACS.Models.Comment", b =>
                 {
                     b.Property<int>("CommentID")
@@ -253,9 +233,6 @@ namespace DACS.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PodcastID"));
 
-                    b.Property<int>("ArtistID")
-                        .HasColumnType("int");
-
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -277,11 +254,14 @@ namespace DACS.Migrations
                     b.Property<int>("TopicID")
                         .HasColumnType("int");
 
+                    b.Property<int>("UserID")
+                        .HasColumnType("int");
+
                     b.HasKey("PodcastID");
 
-                    b.HasIndex("ArtistID");
-
                     b.HasIndex("TopicID");
+
+                    b.HasIndex("UserID");
 
                     b.ToTable("Podcasts");
                 });
@@ -363,6 +343,38 @@ namespace DACS.Migrations
                     b.HasKey("TopicID");
 
                     b.ToTable("Topics");
+                });
+
+            modelBuilder.Entity("DACS.Models.User", b =>
+                {
+                    b.Property<int>("UserID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserID"));
+
+                    b.Property<DateTime>("Dob")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserID");
+
+                    b.ToTable("User");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -556,21 +568,21 @@ namespace DACS.Migrations
 
             modelBuilder.Entity("DACS.Models.Podcast", b =>
                 {
-                    b.HasOne("DACS.Models.Artist", "Artist")
-                        .WithMany()
-                        .HasForeignKey("ArtistID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("DACS.Models.Topic", "Topic")
                         .WithMany()
                         .HasForeignKey("TopicID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Artist");
+                    b.HasOne("DACS.Models.User", "UserName")
+                        .WithMany()
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Topic");
+
+                    b.Navigation("UserName");
                 });
 
             modelBuilder.Entity("DACS.Models.Rating", b =>

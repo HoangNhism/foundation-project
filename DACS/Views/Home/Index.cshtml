@@ -47,11 +47,11 @@
                 <div class="image" style="background-image: url('/@item.EpImage');width:1000px;height:350px"></div>
                 <div class="text">
 
-                    <h3 class="font-weight-light"><a href="single-post.html">@item.Podcast.Title EP @item.PodcastID: @item.Title</a></h3>
+                    <h3 class="font-weight-light"><a href="@item.EpisodeId">@item.Podcast.Title EP @item.PodcastID: @item.Title</a></h3>
                     <div class="text-white mb-3">
                         <span class="text-black-opacity-05">
                             <small>
-                                @item.Podcast.Artist.ArtistName <span class="sep">/</span> @item.ReleaseDate <span class="sep">/</span> @item.Duraion minute
+                                <span class="sep">/</span> @item.ReleaseDate <span class="sep">/</span> @item.Duraion minute
                             </small>
                         </span>
                     </div>
@@ -75,23 +75,6 @@
                 </a>
             </div>
         }
-    </div>
-    <div class="container" data-aos="fade-up">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <div class="site-block-27">
-                    <ul>
-                        <li><a href="#">&lt;</a></li>
-                        <li class="active"><span>1</span></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">5</a></li>
-                        <li><a href="#">&gt;</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 

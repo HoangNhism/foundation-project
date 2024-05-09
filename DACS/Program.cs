@@ -26,7 +26,6 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectio
 
 builder.Services.AddScoped<IPodcastRepo, EFPodcastRepo>();
 builder.Services.AddScoped<IEpisodeRepo, EFEpisodeRepo>();
-builder.Services.AddScoped<IArtistRepo, EFArtistRepo>();
 builder.Services.AddScoped<ITopicRepo, EFTopicRepo>();
 
 

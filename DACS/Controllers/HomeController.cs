@@ -12,16 +12,14 @@ namespace DACS.Controllers
         private readonly ApplicationDbContext _context;
         private readonly IPodcastRepo _podcastRepo;
         private readonly IEpisodeRepo _episodeRepo;
-        private readonly IArtistRepo _artistRepo;
         private readonly ITopicRepo _topicRepo;
 
-        public HomeController(ILogger<HomeController> logger, IPodcastRepo podcastRepo, ApplicationDbContext context, IEpisodeRepo episodeRepo, IArtistRepo artistRepo, ITopicRepo topicRepo)
+        public HomeController(ILogger<HomeController> logger, IPodcastRepo podcastRepo, ApplicationDbContext context, IEpisodeRepo episodeRepo, ITopicRepo topicRepo)
         {
             _logger = logger;
             _podcastRepo = podcastRepo;
             _context = context;
             _episodeRepo = episodeRepo;
-            _artistRepo = artistRepo;
             _topicRepo = topicRepo;
         }
 
@@ -29,21 +27,17 @@ namespace DACS.Controllers
         {
             List<Podcast> podcasts;
             List<Episode> episodes;
-            List<Artist> artists;
             List<Topic> topics;
             podcasts = (await _podcastRepo.GetAllAsync()).ToList();
             podcasts = podcasts.OrderBy(p => p.Title).ToList();
             episodes = (await _episodeRepo.GetAllAsync()).ToList();
             episodes = episodes.OrderBy(p => p.Title).ToList();
-            artists = (await _artistRepo.GetAllAsync()).ToList();
-            artists = artists.OrderBy(p => p.ArtistName).ToList();
             topics = (await _topicRepo.GetAllAsync()).ToList();
             topics = topics.OrderBy(p => p.TopicName).ToList();
             var viewModel = new PodcastViewModel
             {
                 Podcasts = podcasts,
                 Episodes = episodes,
-                Artists = artists,
                 Topics = topics
             };
             return View(viewModel);
@@ -65,6 +59,24 @@ namespace DACS.Controllers
                 Podcasts = podcasts
             };
             return View(viewModel);
+        }
+        public IActionResult CreatePodcast()
+        {
+            ViewData["PodcastID"] = new SelectList(_context.Podcasts, "PodcastID", "Podcast");
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreatePodcast([Bind("PodcastID,Podcast")] Podcast podcast)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(podcast);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            ViewData["PodcastID"] = new SelectList(_context.Podcasts, "PodcastID", "Podcast", podcast.PodcastID);
+            return View(podcast);
         }
         public IActionResult Privacy()
         {

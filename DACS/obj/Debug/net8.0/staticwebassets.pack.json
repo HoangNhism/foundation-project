@@ -125,20 +125,20 @@
       "PackagePath": "staticwebassets\\images\\CoverImg\\Vietcetera\\HAVE A SIP\\HAVE A SIP.jpg"
     },
     {
-      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\CoverImg\\Vietcetera\\HAVE A SIP\\img_3.jpg",
-      "PackagePath": "staticwebassets\\images\\CoverImg\\Vietcetera\\HAVE A SIP\\img_3.jpg"
-    },
-    {
-      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\CoverImg\\Vietcetera\\img_1.jpg",
-      "PackagePath": "staticwebassets\\images\\CoverImg\\Vietcetera\\img_1.jpg"
-    },
-    {
       "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\CoverImg\\img_2.jpg",
       "PackagePath": "staticwebassets\\images\\CoverImg\\img_2.jpg"
     },
     {
       "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\EpisodeImg\\Vietcetera\\HAVE A SIP\\HAS_EP87.jpg",
       "PackagePath": "staticwebassets\\images\\EpisodeImg\\Vietcetera\\HAVE A SIP\\HAS_EP87.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\EpisodeImg\\Vietcetera\\HAVE A SIP\\img_3.jpg",
+      "PackagePath": "staticwebassets\\images\\EpisodeImg\\Vietcetera\\HAVE A SIP\\img_3.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\EpisodeImg\\img_1.jpg",
+      "PackagePath": "staticwebassets\\images\\EpisodeImg\\img_1.jpg"
     },
     {
       "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\PodcastImg\\Vietcetera.png",

@@ -9,7 +9,6 @@ namespace DACS.Models
             : base(options)
         {
         }
-        public DbSet<Artist> Artists { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Episode> Episodes { get; set; }
         public DbSet<Exclusive> Exclusives { get; set; }
