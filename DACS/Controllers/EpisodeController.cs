@@ -1,5 +1,6 @@
 ﻿using DACS.Models;
 using DACS.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -8,6 +9,7 @@ using System.Security.Claims;
 
 namespace DACS.Controllers
 {
+    
     public class EpisodeController : Controller
     {
         private readonly ApplicationDbContext _context; // Thay YourDbContext bằng DbContext của bạn
@@ -51,6 +53,7 @@ namespace DACS.Controllers
             };
             return View(viewModel);
         }
+        [Authorize]
         public async Task<IActionResult> Detail(int? episodeID)
         {
             // Lấy ra chi tiết episode dựa trên episodeID
@@ -92,20 +95,11 @@ namespace DACS.Controllers
             // Trả về view hiển thị chi tiết episode và danh sách bình luận
             return View(viewModel);
         }
-
-
         [HttpPost]
         public async Task<IActionResult> RateEpisode(int episodeId, float ratingValue)
         {
             // Lấy UserId của người dùng hiện tại (nếu có)
             var userId = User?.FindFirstValue(ClaimTypes.NameIdentifier);
-
-            if (userId == null)
-            {
-                // Người dùng chưa đăng nhập, bạn có thể thực hiện xử lý phù hợp ở đây
-                // Ví dụ: chuyển hướng người dùng đến trang đăng nhập
-                return RedirectToAction("Login", "Account");
-            }
             // Kiểm tra nếu tập podcast tồn tại
             var episode = await _context.Episodes.FindAsync(episodeId);
             if (episode == null)
@@ -140,7 +134,6 @@ namespace DACS.Controllers
         }
 
         // Action để xử lý việc thêm bình luận vào tập podcast
-        
         [HttpPost]
         public async Task<IActionResult> AddComment(int episodeId, string commentText)
         {
@@ -153,13 +146,6 @@ namespace DACS.Controllers
 
             // Lấy UserId của người dùng hiện tại (nếu có)
             var userId = User?.FindFirstValue(ClaimTypes.NameIdentifier);
-
-            if (userId == null)
-            {
-                // Người dùng chưa đăng nhập, bạn có thể thực hiện xử lý phù hợp ở đây
-                // Ví dụ: chuyển hướng người dùng đến trang đăng nhập
-                return RedirectToAction("Login", "Account");
-            }
 
             // Tạo một đối tượng Comment mới
             var comment = new Comment

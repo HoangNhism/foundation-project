@@ -9,7 +9,9 @@
         <h3 class="font-weight-light"><a href="/Episode">@Model.episodes.Title</a></h3>
         <div class="text-white mb-3">
             <span class="text-black-opacity-05">
-                <small> <span class="sep">/</span> @Model.episodes.ReleaseDate.ToShortDateString() <span class="sep">/</span> @Model.episodes.Duraion</small>
+                <small>
+                    <span class="sep">/</span> @Model.episodes.ReleaseDate.ToShortDateString() <span class="sep">/</span> @Model.episodes.Duraion minute
+                </small>
             </span>
         </div>
         <p class="mb-4">@Model.episodes.Description</p>
@@ -102,7 +104,7 @@
         // Chờ 2 giây và chuyển hướng người dùng đến trang mới
         setTimeout(function () {
             document.getElementById('rateForm').submit(); // Gửi form đã xác nhận
-        }, 5000);
+        }, 4000);
     });
 </script>
 

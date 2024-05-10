@@ -39,10 +39,22 @@ namespace DACS.Controllers
             artists = artists.OrderBy(p => p.ArtistName).ToList();
             topics = (await _topicRepo.GetAllAsync()).ToList();
             topics = topics.OrderBy(p => p.TopicName).ToList();
+            List<Episode> topRatedEpisodes = _context.Ratings
+                .GroupBy(r => r.EpisodeID) // Nhóm các đánh giá theo EpisodeId
+                .Select(g => new
+                {
+                    EpisodeID = g.Key,
+                    AverageRating = g.Average(r => r.RatingValue) // Tính trung bình rating cho mỗi tập podcast
+                })
+                .OrderByDescending(g => g.AverageRating) // Sắp xếp theo rating trung bình giảm dần
+                .Take(5)
+                .Select(g => _context.Episodes.FirstOrDefault(e => e.EpisodeId == g.EpisodeID)) // Lấy ra tập podcast tương ứng với mỗi nhóm
+                .ToList();
+
             var viewModel = new PodcastViewModel
             {
                 Podcasts = podcasts,
-                Episodes = episodes,
+                Episodes = topRatedEpisodes,
                 Artists = artists,
                 Topics = topics
             };

@@ -33,7 +33,7 @@
             <h3 class="font-weight-light"><a asp-controller="Episode" asp-action="Detail" asp-route-episodeID="@episode.EpisodeId">@episode.Title</a></h3>
             <div class="text-white mb-3">
                 <span class="text-black-opacity-05">
-                    <small> <span class="sep"></span> @episode.ReleaseDate.ToShortDateString() <span class="sep">/</span> @episode.Duraion</small>
+                    <small> <span class="sep"></span> @episode.ReleaseDate.ToShortDateString() <span class="sep">/</span> @episode.Duraion minute</small>
                 </span>
             </div>
             <p class="mb-4">@episode.Description</p>
