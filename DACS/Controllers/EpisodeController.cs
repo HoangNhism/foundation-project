@@ -183,7 +183,27 @@ namespace DACS.Controllers
 
             return RedirectToAction("Detail", "Episode", new { episodeId = comment.EpisodeID });
         }
+        [HttpPost]
+        public JsonResult AddToPlaylist(int episodeId, int playlistId)
+        {
+            // Kiểm tra xem episode đã có trong playlist hay chưa
+            if (_context.PlaylistDetails.Any(pd => pd.EpisodeId == episodeId && pd.PlaylistID == playlistId))
+            {
+                return Json(new { success = false, message = "Episode đã có trong playlist!" });
+            }
 
+            // Tạo liên kết giữa episode và playlist
+            var playlistDetail = new PlaylistDetail
+            {
+                EpisodeId = episodeId,
+                PlaylistID = playlistId
+            };
+
+            _context.PlaylistDetails.Add(playlistDetail);
+            _context.SaveChanges();
+
+            return Json(new { success = true, message = "Thêm episode vào playlist thành công!" });
+        }
 
     }
 }

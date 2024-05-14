@@ -43,5 +43,44 @@ namespace DACS.Controllers
             ViewData["EpisodeID"] = new SelectList(_context.Podcasts, "PodcastID", "Title", podcast.PodcastID);
             return View(podcast);
         }
+
+        [HttpPost]
+        public JsonResult CreatePlaylist(string playlistName) // Thay đổi tham số nhận vào
+        {
+            // Lấy UserID từ thông tin đăng nhập
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            // Kiểm tra xem tên playlist đã tồn tại hay chưa
+            if (_context.Playlists.Any(p => p.PlaylistName == playlistName && p.UserId == userId))
+            {
+                return Json(new { success = false, message = "Playlist đã tồn tại!" });
+            }
+            // Tạo playlist mới
+            var newPlaylist = new Playlist
+            {
+                PlaylistName = playlistName,
+                UserId = userId
+            };
+
+            _context.Playlists.Add(newPlaylist);
+            _context.SaveChanges();
+
+            return Json(new { success = true, id = newPlaylist.PlaylistID, message = "Tạo playlist thành công" });
+        }
+        // GET: User/GetPlaylists
+        [HttpGet]
+        public JsonResult GetPlaylists()
+        {
+            // Lấy UserID từ thông tin đăng nhập
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            // Lấy danh sách playlist của người dùng
+            var playlists = _context.Playlists
+                .Where(p => p.UserId == userId)
+                .Select(p => new { id = p.PlaylistID, name = p.PlaylistName })
+                .ToList();
+
+            // Trả về danh sách playlist dưới dạng JSON
+            return Json(playlists);
+        }
     }
 }

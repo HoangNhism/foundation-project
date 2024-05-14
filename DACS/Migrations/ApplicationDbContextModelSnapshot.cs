@@ -225,6 +225,29 @@ namespace DACS.Migrations
                     b.ToTable("Playlists");
                 });
 
+            modelBuilder.Entity("DACS.Models.PlaylistDetail", b =>
+                {
+                    b.Property<int>("PlayListDetailID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PlayListDetailID"));
+
+                    b.Property<int>("EpisodeId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PlaylistID")
+                        .HasColumnType("int");
+
+                    b.HasKey("PlayListDetailID");
+
+                    b.HasIndex("EpisodeId");
+
+                    b.HasIndex("PlaylistID");
+
+                    b.ToTable("PlaylistDetails");
+                });
+
             modelBuilder.Entity("DACS.Models.Podcast", b =>
                 {
                     b.Property<int>("PodcastID")
@@ -530,6 +553,25 @@ namespace DACS.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("DACS.Models.PlaylistDetail", b =>
+                {
+                    b.HasOne("DACS.Models.Episode", "Episode")
+                        .WithMany()
+                        .HasForeignKey("EpisodeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DACS.Models.Playlist", "Playlist")
+                        .WithMany()
+                        .HasForeignKey("PlaylistID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Episode");
+
+                    b.Navigation("Playlist");
                 });
 
             modelBuilder.Entity("DACS.Models.Podcast", b =>
