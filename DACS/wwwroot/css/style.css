@@ -951,3 +951,7 @@ a {
     background: #f23a2e;
     color: #fff;
     border: 1px solid transparent; }
+.background-text {
+    background-color: #000; 
+    padding: 10px;
+}

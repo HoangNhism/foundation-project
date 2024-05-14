@@ -105,52 +105,48 @@
       "PackagePath": "staticwebassets\\fonts\\icomoon\\style.css"
     },
     {
-      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\ArtistsImg\\Guest\\ThayMinhNiem.jpg",
-      "PackagePath": "staticwebassets\\images\\ArtistsImg\\Guest\\ThayMinhNiem.jpg"
+      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\EpisodeImg\\Vietcetera\\HAVE_A_SIP\\HAS_EP87.jpg",
+      "PackagePath": "staticwebassets\\images\\EpisodeImg\\Vietcetera\\HAVE_A_SIP\\HAS_EP87.jpg"
     },
     {
-      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\ArtistsImg\\Host\\BLVAnhQuang.png",
-      "PackagePath": "staticwebassets\\images\\ArtistsImg\\Host\\BLVAnhQuang.png"
-    },
-    {
-      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\ArtistsImg\\Host\\Shinphamm.jpg",
-      "PackagePath": "staticwebassets\\images\\ArtistsImg\\Host\\Shinphamm.jpg"
-    },
-    {
-      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\ArtistsImg\\Host\\ThuyMinh.jpg",
-      "PackagePath": "staticwebassets\\images\\ArtistsImg\\Host\\ThuyMinh.jpg"
-    },
-    {
-      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\CoverImg\\Vietcetera\\HAVE A SIP\\HAVE A SIP.jpg",
-      "PackagePath": "staticwebassets\\images\\CoverImg\\Vietcetera\\HAVE A SIP\\HAVE A SIP.jpg"
-    },
-    {
-      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\CoverImg\\img_2.jpg",
-      "PackagePath": "staticwebassets\\images\\CoverImg\\img_2.jpg"
-    },
-    {
-      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\EpisodeImg\\Vietcetera\\HAVE A SIP\\HAS_EP87.jpg",
-      "PackagePath": "staticwebassets\\images\\EpisodeImg\\Vietcetera\\HAVE A SIP\\HAS_EP87.jpg"
-    },
-    {
-      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\EpisodeImg\\Vietcetera\\HAVE A SIP\\img_3.jpg",
-      "PackagePath": "staticwebassets\\images\\EpisodeImg\\Vietcetera\\HAVE A SIP\\img_3.jpg"
+      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\EpisodeImg\\Vietcetera\\HAVE_A_SIP\\img_3.jpg",
+      "PackagePath": "staticwebassets\\images\\EpisodeImg\\Vietcetera\\HAVE_A_SIP\\img_3.jpg"
     },
     {
       "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\EpisodeImg\\img_1.jpg",
       "PackagePath": "staticwebassets\\images\\EpisodeImg\\img_1.jpg"
     },
     {
-      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\PodcastImg\\Vietcetera.png",
-      "PackagePath": "staticwebassets\\images\\PodcastImg\\Vietcetera.png"
+      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\PodcastImg\\Vietcetera\\HAVE_A_SIP\\HAVE_A_SIP.jpg",
+      "PackagePath": "staticwebassets\\images\\PodcastImg\\Vietcetera\\HAVE_A_SIP\\HAVE_A_SIP.jpg"
     },
     {
-      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\PodcastImg\\Webthethao.jpg",
-      "PackagePath": "staticwebassets\\images\\PodcastImg\\Webthethao.jpg"
+      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\PodcastImg\\Vietcetera\\THE_MONEY_DATE\\TMD.jpg",
+      "PackagePath": "staticwebassets\\images\\PodcastImg\\Vietcetera\\THE_MONEY_DATE\\TMD.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\PodcastImg\\Vietcetera\\img_2.jpg",
+      "PackagePath": "staticwebassets\\images\\PodcastImg\\Vietcetera\\img_2.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\PodcastImg\\Webthethao\\TheBreaker\\TheBreaker.jpg",
+      "PackagePath": "staticwebassets\\images\\PodcastImg\\Webthethao\\TheBreaker\\TheBreaker.jpg"
     },
     {
       "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\TopicImg\\Chua_Lanh.jpg",
       "PackagePath": "staticwebassets\\images\\TopicImg\\Chua_Lanh.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\TopicImg\\Self_Grown.jpg",
+      "PackagePath": "staticwebassets\\images\\TopicImg\\Self_Grown.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\TopicImg\\Tien_Te.jpg",
+      "PackagePath": "staticwebassets\\images\\TopicImg\\Tien_Te.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\TopicImg\\Tinh_Yeu.jpg",
+      "PackagePath": "staticwebassets\\images\\TopicImg\\Tinh_Yeu.jpg"
     },
     {
       "Id": "C:\\Study\\DACS\\foundation-project\\DACS\\wwwroot\\images\\hero_bg_1.jpg",

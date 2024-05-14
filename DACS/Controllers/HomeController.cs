@@ -60,24 +60,6 @@ namespace DACS.Controllers
             };
             return View(viewModel);
         }
-        public IActionResult CreatePodcast()
-        {
-            ViewData["PodcastID"] = new SelectList(_context.Podcasts, "PodcastID", "Podcast");
-            return View();
-        }
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> CreatePodcast([Bind("PodcastID,Podcast")] Podcast podcast)
-        {
-            if (ModelState.IsValid)
-            {
-                _context.Add(podcast);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["PodcastID"] = new SelectList(_context.Podcasts, "PodcastID", "Podcast", podcast.PodcastID);
-            return View(podcast);
-        }
         public IActionResult Privacy()
         {
             return View();
