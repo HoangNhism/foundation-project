@@ -7,7 +7,8 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900">
     <link rel="stylesheet" href="~/fonts/icomoon/style.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="..." crossorigin="anonymous" />
     <link rel="stylesheet" href="~/css/bootstrap.min.css">
     <link rel="stylesheet" href="~/css/magnific-popup.css">
     <link rel="stylesheet" href="~/css/jquery-ui.css">
@@ -21,6 +22,36 @@
 
     <link rel="stylesheet" href="~/css/style.css">
 
+    <style>
+        #searchForm .input-group {
+            border: none;
+            border-radius: 25px;
+            overflow: hidden;
+            position: relative; /* Để có thể định vị icon trong input */
+        }
+
+            #searchForm .input-group input {
+                border: none;
+                border-radius: 25px;
+                padding: 10px 40px 10px 15px; /* 40px để có không gian cho icon */
+                outline: none;
+                box-shadow: none;
+                width: 100%; /* Đảm bảo input mở rộng đến hết không gian có thể */
+            }
+
+            #searchForm .input-group button {
+                border: none;
+                border-radius: 25px 0 0 25px; /* Bo cong chiều rộng bên trái */
+                color: white; /* Màu chữ cho nút */
+                padding: 10px 20px; /* Điều chỉnh padding cho nút */
+                cursor: pointer;
+                position: absolute;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto; /* Để căn chỉnh nút theo chiều dọc */
+            }
+    </style>
 </head>
 <body>
 
@@ -36,27 +67,27 @@
         </div>
 
 
-        <header class="site-navbar py-4 absolute transparent" role="banner">
+        <header class="site-navbar py-4 fixed transparent" role="banner">
 
             <div class="container">
                 <div class="row align-items-center">
 
 
                     <div class="col-3" data-aos="fade-down">
-                        <h1><a asp-controller="Home" asp-action="Index" class="text-white h2">Podca</a></h1>
+                        <h1><a asp-controller="Home" asp-action="Index" class="text-white h2">Podcast</a></h1>
                     </div>
                     <div class="col-9" data-aos="fade-down">
                         <nav class="site-navigation position-relative text-right text-md-right" role="navigation">
 
 
 
-                            <div class="d-inline-block ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+                            <div class="d-inline-block ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-orange"><span class="icon-menu h3"></span></a></div>
 
                             <ul class="site-menu js-clone-nav d-none">
                                 <li class="has-children">
                                     <a asp-controller="Home" asp-action="Index">Home</a>
                                     <ul class="dropdown arrow-top">
-                                        <li><a href="#">Menu One</a></li>
+                                        <li><a asp-controller="User" asp-action="CreatePodcast">CreatePodcast</a></li>
                                         <li><a href="#">Menu Two</a></li>
                                         <li><a href="#">Menu Three</a></li>
                                         <li class="has-children">
@@ -89,75 +120,30 @@
 
 
                     </div>
-
+                    <div class="col-3" data-aos="fade-down">
+                        <form id="searchForm">
+                            <div class="input-group">
+                                <input type="text" id="postTitle" name="postTitle" placeholder="Enter your keyword" />
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                        @* <form id="searchForm">
+                            <div class="input-group">
+                                <input type="text" id="postTitle" name="postTitle" placeholder="Enter your keyword" />
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </form> *@
+                    </div>
                 </div>
             </div>
 
         </header>
 
         @RenderBody()
-
-        <div class="site-section bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center mb-5" data-aos="fade-up">
-                        <h2 class="display-4 mb-5 text-black">The Podcaster</h2>
-                    </div>
-                    <div class="col-md-6 col-lg-4 text-center mb-5" data-aos="fade-up">
-                        <img src="~/images/person_1.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-3">
-                        <h2 class="text-black font-weight-light mb-4">Jean Smith</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ab quas facilis obcaecati non ea, est odit repellat distinctio incidunt, quia aliquam eveniet quod deleniti impedit sapiente atque tenetur porro?</p>
-                        <p>
-                            <a href="#" class="pl-0 pr-3"><span class="icon-twitter"></span></a>
-                            <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                            <a href="#" class="pl-3 pr-3"><span class="icon-facebook"></span></a>
-                        </p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 text-center mb-5" data-aos="fade-up">
-                        <img src="~/images/person_2.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-3">
-                        <h2 class="text-black font-weight-light mb-4">Claire Smith</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ab quas facilis obcaecati non ea, est odit repellat distinctio incidunt, quia aliquam eveniet quod deleniti impedit sapiente atque tenetur porro?</p>
-                        <p>
-                            <a href="#" class="pl-0 pr-3"><span class="icon-twitter"></span></a>
-                            <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                            <a href="#" class="pl-3 pr-3"><span class="icon-facebook"></span></a>
-                        </p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 text-center mb-5" data-aos="fade-up">
-                        <img src="~/images/person_4.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-3">
-                        <h2 class="text-black font-weight-light mb-4">John Smith</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ab quas facilis obcaecati non ea, est odit repellat distinctio incidunt, quia aliquam eveniet quod deleniti impedit sapiente atque tenetur porro?</p>
-                        <p>
-                            <a href="#" class="pl-0 pr-3"><span class="icon-twitter"></span></a>
-                            <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                            <a href="#" class="pl-3 pr-3"><span class="icon-facebook"></span></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="site-section">
-            <div class="container">
-                <div class="row" data-aos="fade-up">
-                    <div class="col-md-12">
-                        <img src="~/images/hero_bg_1.jpg" alt="Image" class="img-fluid mb-5">
-                    </div>
-                    <div class="col-md-6">
-                        <p class="lead">Lorem ipsum dolor sit amet, <a href="#">consectetur</a> Có những sự thật cao cả không ai có thể phủ nhận? Có những khiến cho mọi người phải suy nghĩ? Có những lúc nhỏ nhất mà mọi người thường xuyên gặp phải.</p>
-                        <p>Chúng tôi thường gặp phải những thách thức, nhưng chúng tôi cố gắng để có thể hoàn thành nhiệm vụ. Có lúc chúng tôi gặp khó khăn, nhưng chúng tôi luôn tìm cách giải quyết. Công việc đòi hỏi sự chú ý nhỏ nhất, nhưng không phải lúc nào cũng dễ dàng, nhưng chúng tôi luôn cố gắng, đề xuất, và làm việc một cách hết lòng.</p>
-                    </div>
-                    <div class="col-md-6">
-                        <p> Công việc được phân công nhưng tôi lại không thấy thoải mái, sự thú vị cũng như sự tự do không còn. Đôi khi, tôi cảm thấy như mình đang được bó buộc bởi những yêu cầu và trách nhiệm, cảm giác như mình không còn tự do tự tại.</p>
-                        <p> Công việc được phân công nhưng tôi lại không thấy thoải mái, sự thú vị cũng như sự tự do không còn. Đôi khi, tôi cảm thấy như mình đang được bó buộc bởi những yêu cầu và trách nhiệm, cảm giác như mình không còn tự do tự tại.</p>
-                    </div>
-                </div>
-            </div>
-        </div> 
-
-
-
-
 
         <footer class="site-footer">
             <div class="container">

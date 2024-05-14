@@ -1,121 +1,81 @@
-﻿<div class="site-blocks-cover overlay" style="background-image: url(images/hero_bg_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
-    <div class="container">
-        <div class="row align-items-center justify-content-center text-center">
+﻿@model DACS.Models.PodcastViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+@if (Model.Episodes.Count != 0)
+{
+    <div class="site-blocks-cover overlay" style="background-image: url('@Model.Episodes[0].EpImage');" data-aos="fade" data-stellar-background-ratio="1.8">
+        <div class="container">
+            <div class="row align-items-center justify-content-center text-center">
 
-            <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
-                <h2 class="text-white font-weight-light mb-2 display-4">Episode 09: How To Create Web Page Using Bootstrap 4</h2>
-                <div class="text-white mb-4"><span class="text-white-opacity-05"><small>By Mike Smith | 16 September 2017 | 1:30:20</small></span></div>
-                <p><a href="single-post.html" class="btn btn-primary btn-sm py-3 px-4 small">Read The Transcript</a></p>
+                <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
+                    <h2 class="text-white font-weight-light mb-2 display-4">@Model.Episodes[0].Title</h2>
+                    <div class="text-white mb-4">
+                        <span class="text-white-opacity-05">
+                            <small>
+                                <span class="sep">/</span> @Model.Episodes[0].ReleaseDate <span class="sep">/</span> @Model.Episodes[0].Duraion minute
+                            </small>
+                        </span>
+                    </div>
+                    <p><a asp-controller="Episode" asp-action="Detail" asp-route-episodeID="@Model.Episodes[0].EpisodeId" class="btn btn-primary btn-sm py-3 px-4 small">Xem chi tiết</a></p>
 
-                <div class="player">
-                    <audio id="player2" preload="none" controls style="max-width: 100%">
-                        <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
-                    </audio>
+                    <div class="player">
+                        <audio id="player2" preload="none" controls style="max-width: 100%">
+                            <source src="~/@Model.Episodes[0].AudioUrl" type="audio/mp3">
+                        </audio>
+                    </div>
+
                 </div>
-
             </div>
         </div>
     </div>
-</div>
-
-
+}
 <div class="site-section bg-light">
     <div class="container">
 
         <div class="row mb-5" data-aos="fade-up">
             <div class="col-md-12 text-center">
-                <h2 class="font-weight-bold text-black">Recent Podcasts</h2>
+                <h2 class="font-weight-bold text-black">
+                    Podcasts thịnh hành
+                </h2>
             </div>
         </div>
+        @foreach (var item in Model.Episodes)
+        {
+            <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
+                <div class="image" style="background-image: url('/@item.EpImage');width:1000px;height:350px"></div>
+                <div class="text">
 
-        <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
-            <div class="image" style="background-image: url('images/img_1.jpg');"></div>
-            <div class="text">
-
-                <h3 class="font-weight-light"><a href="single-post.html">Episode 08: How To Create Web Page Using Bootstrap 4</a></h3>
-                <div class="text-white mb-3"><span class="text-black-opacity-05"><small>By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small></span></div>
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat mollitia consequatur, optio nesciunt placeat. Iste voluptates excepturi tenetur, nesciunt.</p>
-
-                <div class="player">
-                    <audio id="player2" preload="none" controls style="max-width: 100%">
-                        <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
-                    </audio>
-                </div>
-
-            </div>
-        </div>
-
-
-        <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
-            <div class="image" style="background-image: url('images/img_2.jpg');"></div>
-            <div class="text">
-
-                <h3 class="font-weight-light"><a href="single-post.html">Episode 07: How To Create Web Page Using Bootstrap 4</a></h3>
-                <div class="text-white mb-3"><span class="text-black-opacity-05"><small>By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small></span></div>
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat mollitia consequatur, optio nesciunt placeat. Iste voluptates excepturi tenetur, nesciunt.</p>
-
-
-                <div class="player">
-                    <audio id="player2" preload="none" controls style="max-width: 100%">
-                        <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
-                    </audio>
-                </div>
-
-            </div>
-        </div>
-
-
-        <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
-            <div class="image" style="background-image: url('images/img_3.jpg');"></div>
-            <div class="text">
-
-                <h3 class="font-weight-light"><a href="single-post.html">Episode 06: How To Create Web Page Using Bootstrap 4</a></h3>
-                <div class="text-white mb-3"><span class="text-black-opacity-05"><small>By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small></span></div>
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat mollitia consequatur, optio nesciunt placeat. Iste voluptates excepturi tenetur, nesciunt.</p>
-
-                <div class="player">
-                    <audio id="player2" preload="none" controls style="max-width: 100%">
-                        <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
-                    </audio>
+                    <h3 class="font-weight-light"><a asp-controller="Episode" asp-action="Detail" asp-route-episodeID="@item.EpisodeId">@item.Podcast.Title EP @item.PodcastID: @item.Title</a></h3>
+                    <div class="text-white mb-3">
+                        <span class="text-black-opacity-05">
+                            <small>
+                                <span class="sep">/</span> @item.ReleaseDate <span class="sep">/</span> @item.Duraion minute
+                            </small>
+                        </span>
+                    </div>
+                    <p class="mb-4">@item.Description </p>
+                    <div class="player">
+                        <audio id="player2" preload="none" controls style="max-width: 100%">
+                            <source src="~/@item.AudioUrl" type="audio/mp3">
+                        </audio>
+                    </div>
                 </div>
             </div>
-        </div>
-
-
-        <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
-            <div class="image" style="background-image: url('images/img_4.jpg');"></div>
-            <div class="text">
-
-                <h3 class="font-weight-light"><a href="single-post.html">Episode 05: How To Create Web Page Using Bootstrap 4</a></h3>
-                <div class="text-white mb-3"><span class="text-black-opacity-05"><small>By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small></span></div>
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat mollitia consequatur, optio nesciunt placeat. Iste voluptates excepturi tenetur, nesciunt.</p>
-
-                <div class="player">
-                    <audio id="player2" preload="none" controls style="max-width: 100%">
-                        <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
-                    </audio>
-                </div>
+        }
+    </div>
+    
+    <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
+        @foreach (var item in Model.Topics)
+        {
+            <div class="btn-group" style="width:14%">
+                
+                <a asp-action="PodcastList" asp-route-id="@item.TopicID">
+                    <div style="text-align: center;">@item.TopicName</div>
+                    <button style="background-image: url('/@item.ImageURL'); background-size: cover; width: 200px; height: 50px; color: white; font-size: 16px; border: none; border-radius: 5px; cursor: pointer;"></button>
+                </a>
             </div>
-        </div>
-
-
-        <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
-            <div class="image" style="background-image: url('images/img_5.jpg');"></div>
-            <div class="text">
-
-                <h3 class="font-weight-light"><a href="single-post.html">Episode 04: How To Create Web Page Using Bootstrap 4</a></h3>
-                <div class="text-white mb-3"><span class="text-black-opacity-05"><small>By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small></span></div>
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat mollitia consequatur, optio nesciunt placeat. Iste voluptates excepturi tenetur, nesciunt.</p>
-
-                <div class="player">
-                    <audio id="player2" preload="none" controls style="max-width: 100%">
-                        <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
-                    </audio>
-                </div>
-            </div>
-        </div>
-
-
+        }
     </div>
     <div class="container" data-aos="fade-up">
         <div class="row">
@@ -145,15 +105,19 @@
         </div>
         <div class="row">
             <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                <div class="team-member">
+                <div class="team-member" style="height: 400px;width: 300px;">
 
-                    <img src="images/person_1.jpg" alt="Image" class="img-fluid">
+                    <img src="~/images/Vietcetera.png" style="object-fit;" alt="Image" class="img-fluid">
 
                     <div class="text">
 
-                        <h2 class="mb-2 font-weight-light h4">Megan Smith</h2>
-                        <span class="d-block mb-2 text-white-opacity-05">Creative Director</span>
-                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit ullam reprehenderit nemo.</p>
+                        <h2 class="mb-2 font-weight-light h4">Vietcetera</h2>
+                        <span class="d-block mb-2 text-white-opacity-05">
+                            Công ty sản xuất
+                        </span>
+                        <p class="mb-4">
+                            Vietcetera là công ty truyền thông có trụ sở tại TP.HCM. Với đội ngũ 80 nhân viên, Vietcetera còn có phiên bản quốc tế dành cho khán giả toàn cầu và có hơn 20 triệu người truy cập hàng tháng.
+                        </p>
                         <p>
                             <a href="#" class="text-white p-2"><span class="icon-facebook"></span></a>
                             <a href="#" class="text-white p-2"><span class="icon-twitter"></span></a>
@@ -165,15 +129,19 @@
             </div>
 
             <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                <div class="team-member">
+                <div class="team-member" style="height: 400px;width: 300px;">
 
-                    <img src="images/person_2.jpg" alt="Image" class="img-fluid">
+                    <img src="~/images/Webthethao.jpg" alt="Image" class="img-fluid">
 
                     <div class="text">
 
-                        <h2 class="mb-2 font-weight-light h4">Brooke Cagle</h2>
-                        <span class="d-block mb-2 text-white-opacity-05">Creative Director</span>
-                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit ullam reprehenderit nemo.</p>
+                        <h2 class="mb-2 font-weight-light h4">WEB THE THAO</h2>
+                        <span class="d-block mb-2 text-white-opacity-05">Công ty sản xuất</span>
+                        <p class="mb-4">
+                            Web thể thao là kênh youtube chuyên về thể thao tại Việt Nam.
+                            + Thông tin nhanh và chuyên sâu về các môn thể thao trong và ngoài nước.
+                            + Đời sống bên lề của các vận động viên và nhân sự cũng như sự quan tâm của xã hội đối với thể thao nước nhà.
+                        </p>
                         <p>
                             <a href="#" class="text-white p-2"><span class="icon-facebook"></span></a>
                             <a href="#" class="text-white p-2"><span class="icon-twitter"></span></a>
@@ -185,15 +153,19 @@
             </div>
 
             <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                <div class="team-member">
+                <div class="team-member" style="height: 400px;width: 300px;">
 
-                    <img src="images/person_3.jpg" alt="Image" class="img-fluid">
+                    <img src="~/images/Shinphamm.jpg" alt="Image" class="img-fluid">
 
                     <div class="text">
 
-                        <h2 class="mb-2 font-weight-light h4">Philip Martin</h2>
+                        <h2 class="mb-2 font-weight-light h4">
+                            SHINPHAMM
+                        </h2>
                         <span class="d-block mb-2 text-white-opacity-05">Creative Director</span>
-                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit ullam reprehenderit nemo.</p>
+                        <p class="mb-4">
+                            SHINPHAMM - Youtube channel về Fitness & Lifestyle.
+                        </p>
                         <p>
                             <a href="#" class="text-white p-2"><span class="icon-facebook"></span></a>
                             <a href="#" class="text-white p-2"><span class="icon-twitter"></span></a>
@@ -203,68 +175,94 @@
 
                 </div>
             </div>
-
-            <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                <div class="team-member">
-
-                    <img src="images/person_4.jpg" alt="Image" class="img-fluid">
-
-                    <div class="text">
-
-                        <h2 class="mb-2 font-weight-light h4">Steven Ericson</h2>
-                        <span class="d-block mb-2 text-white-opacity-05">Creative Director</span>
-                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit ullam reprehenderit nemo.</p>
-                        <p>
-                            <a href="#" class="text-white p-2"><span class="icon-facebook"></span></a>
-                            <a href="#" class="text-white p-2"><span class="icon-twitter"></span></a>
-                            <a href="#" class="text-white p-2"><span class="icon-linkedin"></span></a>
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                <div class="team-member">
-
-                    <img src="images/person_5.jpg" alt="Image" class="img-fluid">
-
-                    <div class="text">
-
-                        <h2 class="mb-2 font-weight-light h4">Nathan Dumlao</h2>
-                        <span class="d-block mb-2 text-white-opacity-05">Creative Director</span>
-                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit ullam reprehenderit nemo.</p>
-                        <p>
-                            <a href="#" class="text-white p-2"><span class="icon-facebook"></span></a>
-                            <a href="#" class="text-white p-2"><span class="icon-twitter"></span></a>
-                            <a href="#" class="text-white p-2"><span class="icon-linkedin"></span></a>
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                <div class="team-member">
-
-                    <img src="images/person_6.jpg" alt="Image" class="img-fluid">
-
-                    <div class="text">
-
-                        <h2 class="mb-2 font-weight-light h4">Brooke Cagle</h2>
-                        <span class="d-block mb-2 text-white-opacity-05">Creative Director</span>
-                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit ullam reprehenderit nemo.</p>
-                        <p>
-                            <a href="#" class="text-white p-2"><span class="icon-facebook"></span></a>
-                            <a href="#" class="text-white p-2"><span class="icon-twitter"></span></a>
-                            <a href="#" class="text-white p-2"><span class="icon-linkedin"></span></a>
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-
-
         </div>
     </div>
 </div>
+<div class="site-section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center mb-5" data-aos="fade-up">
+                <h2 class="display-4 mb-5 text-black">The Podcaster</h2>
+            </div>
+            <div class="col-md-6 col-lg-4 text-center mb-5" data-aos="fade-up">
+                <img src="~/images//ArtistsImg/Host/ThuyMinh.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-3">
+                <h2 class="text-black font-weight-light mb-4">
+                    Host Thùy Minh
+                </h2>
+                <p>Là một cá nhân rất đa tài và có sức ảnh hưởng mạnh mẽ trong cộng đồng truyền thông. Với gu thẩm mỹ tinh tế và khả năng giao tiếp tự nhiên, cô ấy không chỉ là một người dẫn chương trình xuất sắc mà còn là một diễn giả truyền cảm hứng. Thùy Minh không ngừng chinh phục khán giả với sự sâu sắc và sự gần gũi, đồng thời là nguồn cảm hứng vô tận cho những ai đam mê nghệ thuật và sự sáng tạo.</p>
+                <p>
+                    <a href="#" class="pl-0 pr-3"><span class="icon-twitter"></span></a>
+                    <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                    <a href="#" class="pl-3 pr-3"><span class="icon-facebook"></span></a>
+                </p>
+            </div>
+            <div class="col-md-6 col-lg-4 text-center mb-5" data-aos="fade-up">
+                <img src="~/images//ArtistsImg/Host/BLVAnhQuang.png" alt="Image" class="img-fluid w-50 rounded-circle mb-3">
+                <h2 class="text-black font-weight-light mb-4">BLV Anh Quang</h2>
+                <p>Anh Quang là một bình luận viên nổi tiếng trên trang webthethao, với sự hiểu biết sâu sắc về các môn thể thao và khả năng phân tích tinh tế. Ông là người có giọng điệu sôi nổi và lôi cuốn, luôn mang lại cho người nghe những trải nghiệm thú vị và sâu sắc về thế giới thể thao. Với kiến thức rộng lớn và cái nhìn chiến lược, Anh Quang không chỉ là một bình luận viên xuất sắc mà còn là nguồn cảm hứng lớn cho các fan hâm mộ thể thao.</p>
+                <p>
+                    <a href="#" class="pl-0 pr-3"><span class="icon-twitter"></span></a>
+                    <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                    <a href="#" class="pl-3 pr-3"><span class="icon-facebook"></span></a>
+                </p>
+            </div>
+            <div class="col-md-6 col-lg-4 text-center mb-5" data-aos="fade-up">
+                <img src="~/images//ArtistsImg/Host/Shinphamm.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-3">
+                <h2 class="text-black font-weight-light mb-4">
+                    Shinphamm
+                </h2>
+                <p>
+                    ShinPham là một YouTuber nổi tiếng trong cộng đồng YouTube Việt Nam. Với phong cách vui nhộn, thân thiện và đầy năng lượng, anh đã thu hút được một lượng lớn người hâm mộ trên nền tảng này. ShinPham nổi tiếng với các video về cuộc sống hàng ngày, thử thách, và những trò vui nhộn, luôn mang lại tiếng cười và niềm vui cho khán giả của mình. Ngoài ra, anh cũng thường chia sẻ về các chủ đề về sức khỏe, làm đẹp và phong cách sống tích cực, tạo ra sự gần gũi và thân thiện với người xem.
+                </p>
+                <p>
+                    <a href="#" class="pl-0 pr-3"><span class="icon-twitter"></span></a>
+                    <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                    <a href="#" class="pl-3 pr-3"><span class="icon-facebook"></span></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="site-section">
+    <div class="container">
+        <div class="row" data-aos="fade-up">
+            <div class="col-md-12">
+                <img src="~/images/hero_bg_1.jpg" alt="Image" class="img-fluid mb-5">
+            </div>
+            <div class="col-md-6">
+                <p class="lead"><a href="#"></a> Podcast là một phương tiện truyền thông mạnh mẽ, mang lại sự tiện lợi và linh hoạt cho người nghe. Với khả năng lắng nghe trên nhiều nền tảng và thiết bị di động, podcast đã trở thành nguồn thông tin giáo dục và giải trí hữu ích trong cuộc sống hàng ngày của con người. Từ việc nghe podcast về nghệ thuật, khoa học, kinh doanh đến podcast về tâm lý học và phát triển cá nhân, người nghe có cơ hội mở rộng kiến thức và tạo ra sự kết nối với thế giới xung quanh.</p>
+                <p>Podcast không chỉ là nguồn giải trí mà còn là một công cụ hữu ích trong việc cải thiện sự hiểu biết và kỹ năng của con người. Nhờ vào đa dạng chủ đề và phong cách trình bày, người nghe có thể tìm kiếm và lựa chọn nội dung phù hợp với sở thích và mục tiêu cá nhân của mình. Từ việc học hỏi kinh nghiệm từ những người thành công đến việc tìm hiểu về các xu hướng mới trong nghệ thuật và công nghệ, podcast mang lại cho con người cơ hội không ngừng phát triển và hoàn thiện bản thân.</p>
+            </div>
+            <div class="col-md-6">
+                <p> Podcast có tác động tích cực đến tâm trạng và tinh thần của người nghe. Những chương trình podcast về chủ đề tâm lý học, mindfulness và self-care giúp người nghe tạo ra một không gian yên bình và tĩnh lặng trong cuộc sống hối hả. Việc thư giãn và lắng nghe những câu chuyện đầy cảm hứng và tri thức từ podcast cũng giúp giảm căng thẳng và lo âu, tạo ra một tâm trạng tích cực và sự cân bằng trong cuộc sống hàng ngày.</p>
+                <p> Podcast không chỉ là một phương tiện truyền thông mà còn là một cộng đồng, nơi mà những người có cùng sở thích và quan điểm có thể kết nối và giao lưu với nhau. Từ việc thảo luận về nội dung của các chương trình podcast đến việc chia sẻ kinh nghiệm và ý kiến, cộng đồng podcast là một môi trường sôi động và đa dạng, tạo ra một trải nghiệm nghe độc đáo và mang lại sự phấn khích và hứng khởi cho người tham gia.</p>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        $(function () {
+            $("#postTitle").autocomplete({
+                source: function (request, response) {
+                    // Gửi yêu cầu AJAX đến action Search của ProductController với từ khóa tìm kiếm
+                    $.ajax({
+                        url: "/Podcast/Search",
+                        type: "GET",
+                        dataType: "json",
+                        data: {
+                            term: request.term
+                        },
+                        success: function (data) {
+                            // Dữ liệu nhận được từ action Search
+                            response(data);
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}
