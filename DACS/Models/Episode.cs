@@ -11,5 +11,7 @@
         public string EpImage {  get; set; }
         public int PodcastID { get; set; }
         public Podcast? Podcast { get; set; }
+        public List<PlaylistDetail> PlaylistDetails { get; set; }
+
     }
 }

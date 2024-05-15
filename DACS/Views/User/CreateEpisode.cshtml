@@ -1,0 +1,42 @@
+﻿@model DACS.Models.Episode
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div>
+    <form asp-action="CreateEpisode">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Title" class="control-label"></label>
+            <input asp-for="Title" class="form-control" />
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Description" class="control-label"></label>
+            <input asp-for="Description" class="form-control" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Title" class="control-label"></label>
+            <select asp-for="PodcastID" class="form-control" asp-items="ViewBag.Podcasts"></select>
+        </div>
+        <div class="form-group">
+            <label asp-for="AudioUrl" class="control-label"></label>
+            <input asp-for="AudioUrl" class="form-control" />
+            <span asp-validation-for="AudioUrl" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="EpImage" class="control-label"></label>
+            <input asp-for="EpImage" class="form-control" />
+            <span asp-validation-for="EpImage" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
+
+<div>
+    <a asp-controller="" asp-action="">Back to List</a>
+</div>

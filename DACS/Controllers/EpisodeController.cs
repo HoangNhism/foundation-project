@@ -53,6 +53,30 @@ namespace DACS.Controllers
             };
             return View(viewModel);
         }
+        public IActionResult EpisodeByPlaylist(int playlistId)
+        {
+            var episodes = _context.PlaylistDetails
+           .Where(pd => pd.PlaylistID == playlistId)
+           .Include(pd => pd.Episode) // Include the related Episode
+           .Select(pd => pd.Episode)
+           .ToList();
+
+            var playlist = _context.Playlists
+                   .Include(p => p.PlaylistDetails) // Include PlaylistDetails
+                   .ThenInclude(pd => pd.Episode) // Include Episode in PlaylistDetails
+                   .FirstOrDefault(p => p.PlaylistID == playlistId);
+            if (playlist == null)
+            {
+                return NotFound();
+            }
+            var viewModel = new ViewModelEpisodeByPlaylist
+            {
+                PlaylistName = playlist.PlaylistName,
+                Episodes = episodes
+            };
+
+            return View(viewModel);
+        }
         [Authorize]
         public async Task<IActionResult> Detail(int? episodeID)
         {

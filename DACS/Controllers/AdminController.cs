@@ -33,7 +33,7 @@ namespace DACS.Controllers
             {
                 _context.Add(topic);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("CreateTopic","Admin");
             }
             ViewData["TopicID"] = new SelectList(_context.Topics, "TopicID", "TopicName", topic.TopicID);
             return View(topic);

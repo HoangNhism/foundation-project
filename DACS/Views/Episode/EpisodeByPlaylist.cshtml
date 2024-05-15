@@ -1,0 +1,29 @@
+﻿@using System.Security.Claims
+@using Microsoft.EntityFrameworkCore
+@using DACS.Models
+@model DACS.ViewModels.ViewModelEpisodeByPlaylist
+@{
+    ViewData["Title"] = Model.PlaylistName;
+}
+
+<h2>@Model.PlaylistName</h2>
+@foreach (var episode in Model.Episodes)
+{
+    <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
+        <div class="image" style="background-image: url('/@episode.EpImage'); width: 1000px; height: 350px"></div>
+        <div class="text">
+            <h3 class="font-weight-light"><a asp-controller="Episode" asp-action="Detail" asp-route-episodeID="@episode.EpisodeId">@episode.Title</a></h3>
+            <div class="text-white mb-3">
+                <span class="text-black-opacity-05">
+                    <small> <span class="sep"></span> @episode.ReleaseDate.ToShortDateString() <span class="sep">/</span> @episode.Duraion minute</small>
+                </span>
+            </div>
+            <p class="mb-4">@episode.Description</p>
+            <div class="player">
+                <audio id="player2" preload="none" controls style="max-width: 100%">
+                    <source src="~/@episode.AudioUrl" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+    </div>
+}

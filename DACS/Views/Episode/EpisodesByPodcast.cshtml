@@ -4,284 +4,273 @@
 @model DACS.ViewModels.ViewModelEpisodeByPodcast
 
 @{
-    ViewData["Title"] = "Episodes";
+	ViewData["Title"] = "Episodes";
 }
 <style>
-    .modal {
-        display: none;
-        position: fixed;
-        z-index: 1;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgba(0, 0, 0, 0.4);
-    }
+	.modal {
+		display: none;
+		position: fixed;
+		z-index: 1;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		background-color: rgba(0, 0, 0, 0.4);
+	}
 
-    .modal-content {
-        background-color: #fefefe;
-        margin: 15% auto;
-        padding: 20px;
-        border: 1px solid #888;
-        width: 80%;
-    }
+	.modal-content {
+		background-color: #fefefe;
+		margin: 15% auto;
+		padding: 20px;
+		border: 1px solid #888;
+		width: 80%;
+	}
 
-    .close {
-        color: #aaa;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-    }
+	.close {
+		color: #aaa;
+		float: right;
+		font-size: 28px;
+		font-weight: bold;
+	}
 
-        .close:hover,
-        .close:focus {
-            color: black;
-            text-decoration: none;
-            cursor: pointer;
-        }
+		.close:hover,
+		.close:focus {
+			color: black;
+			text-decoration: none;
+			cursor: pointer;
+		}
 </style>
 <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
-    <div class="image" style="background-image : url('/@Model.ImageUrl');width:1000px;height:350px"></div>
-    <div class="text">
-        <h3 class="font-weight-light">Podcast</h3>
-        <h1 class="font-weight-light">@Model.Title</h1>  
-        <p class="mb-4">@Model.Description</p>
-        <div class="star-rating">
-            <span class="rating">@Model.ratingValue</span>
-            <i class="fas fa-star"></i>
-            <span class="total-ratings">(@Model.totalRating đánh giá)</span>
-        </div>
-        <button id="followButton" type="button" class="btn btn-primary follow-btn mt-4 d-block" data-podcastId="@Model.PodcastID">
-            Theo dõi
-        </button>
-    </div>
+	<div class="image" style="background-image : url('/@Model.ImageUrl');width:1000px;height:350px"></div>
+	<div class="text">
+		<h3 class="font-weight-light">Podcast</h3>
+		<h1 class="font-weight-light">@Model.Title</h1>  
+		<p class="mb-4">@Model.Description</p>
+		<div class="star-rating">
+			<span class="rating">@Model.ratingValue</span>
+			<i class="fas fa-star"></i>
+			<span class="total-ratings">(@Model.totalRating đánh giá)</span>
+		</div>
+		<button id="followButton" type="button" class="btn btn-primary follow-btn mt-4 d-block" data-podcastId="@Model.PodcastID">
+			Theo dõi
+		</button>
+	</div>
 </div>
 
 <div class="row mb-5" data-aos="fade-up">
-    <div class="col-md-12 text-center">
-        <h2 class="font-weight-bold text-black">
-            Tất Cả Các Tập
-        </h2>
-    </div>
+	<div class="col-md-12 text-center">
+		<h2 class="font-weight-bold text-black">
+			Tất Cả Các Tập
+		</h2>
+	</div>
 </div>
 @foreach (var episode in Model.Eps)
 {
-    <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
-        <div class="image" style="background-image : url('/@episode.EpImage');width:1000px;height:350px"></div>
-        <div class="text">
-            <h3 class="font-weight-light"><a asp-controller="Episode" asp-action="Detail" asp-route-episodeID="@episode.EpisodeId">@episode.Title</a></h3>
-            <div class="text-white mb-3">
-                <span class="text-black-opacity-05">
-                    <small> <span class="sep"></span> @episode.ReleaseDate.ToShortDateString() <span class="sep">/</span> @episode.Duraion minute</small>
-                </span>
-            </div>
-            <p class="mb-4">@episode.Description</p>
-            <div class="player">
-                <audio id="player2" preload="none" controls style="max-width: 100%">
-                    <source src="~/@episode.AudioUrl" type="audio/mp3">
-                </audio>
-            </div>
-            <button id="addToPlaylist" type="button" data-episodeId="@episode.EpisodeId" class="btn btn-primary show-modal follow-btn mt-4 d-block">
-                Thêm vào danh sách phát
-            </button>
-        </div>
-    </div>
+		<div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
+			<div class="image" style="background-image : url('/@episode.EpImage');width:1000px;height:350px"></div>
+			<div class="text">
+				<h3 class="font-weight-light"><a asp-controller="Episode" asp-action="Detail" asp-route-episodeID="@episode.EpisodeId">@episode.Title</a></h3>
+				<div class="text-white mb-3">
+					<span class="text-black-opacity-05">
+						<small> <span class="sep"></span> @episode.ReleaseDate.ToShortDateString() <span class="sep">/</span> @episode.Duraion minute</small>
+					</span>
+				</div>
+				<p class="mb-4">@episode.Description</p>
+				<div class="player">
+					<audio id="player2" preload="none" controls style="max-width: 100%">
+						<source src="~/@episode.AudioUrl" type="audio/mp3">
+					</audio>
+				</div>
+				<button id="addToPlaylist" type="button" data-episodeId="@episode.EpisodeId" class="btn btn-primary show-modal follow-btn mt-4 d-block">
+					Thêm vào danh sách phát
+				</button>
+			</div>
+		</div>
 
 }
 <div id="playlistModal" class="modal">
-    <div class="modal-content">
-        <span class="close">×</span>
-        <h2>Chọn danh sách phát</h2>
-        <ul id="playlistList">
-        </ul>
-        <form id="newPlaylistForm">
-            <input type="text" id="newPlaylistName" placeholder="Tên playlist mới">
-            <button type="submit">Tạo</button>
-        </form>
-        <button id="addToSelectedPlaylistBtn" type="button" class="btn btn-primary">Thêm vào danh sách phát</button>
-    </div>
+	<div class="modal-content">
+		<span class="close">×</span>
+		<h2>Chọn danh sách phát</h2>
+		<ul id="playlistList">
+		</ul>
+		<form id="newPlaylistForm">
+			<input type="text" id="newPlaylistName" placeholder="Tên playlist mới">
+			<button type="submit">Tạo</button>
+		</form>
+		<button id="addToSelectedPlaylistBtn" type="button" class="btn btn-primary">Thêm vào danh sách phát</button>
+	</div>
 </div>
 <script>
-    <!--Subscription-- >
-    document.addEventListener('DOMContentLoaded', function () {
-        const followButton = document.getElementById('followButton');
-        const podcastId = followButton.getAttribute('data-podcastId');
+	document.addEventListener('DOMContentLoaded', function () {
+		const followButton = document.getElementById('followButton');
+		const podcastId = followButton.getAttribute('data-podcastId');
 
-        // Gửi yêu cầu AJAX để kiểm tra trạng thái đăng ký của người dùng
-        fetch(`/Podcast/CheckSubscription?podcastId=${podcastId}`)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then(data => {
-                // Nếu người dùng đã đăng ký podcast, cập nhật nút theo dõi
-                if (data.isSubscribed) {
-                    updateButtonState(true);
-                }
-            })
-            .catch(error => {
-                console.error('There has been a problem with your fetch operation:', error);
-            });
+		// Gửi yêu cầu AJAX để kiểm tra trạng thái đăng ký của người dùng
+		fetch(`/Podcast/CheckSubscription?podcastId=${podcastId}`)
+			.then(response => {
+				if (!response.ok) {
+					throw new Error('Network response was not ok');
+				}
+				return response.json();
+			})
+			.then(data => {
+				if (data.isSubscribed) {
+					followButton.innerText = 'Huỷ theo dõi';
+				} else {
+					followButton.innerText = 'Theo dõi';
+				}
+			})
+			.catch(error => {
+				console.error('There has been a problem with your fetch operation:', error);
+			});
 
-        // Thêm sự kiện click cho nút theo dõi
-        followButton.addEventListener('click', function () {
-            // Gửi yêu cầu AJAX đến endpoint Subscription
-            fetch(`/Podcast/Subscription?PodcastID=${podcastId}`, {
-                method: 'POST',
-            })
-                .then(response => {
-                    if (followButton.innerText === 'Theo dõi') {
-                        followButton.innerText = 'Huỷ theo dõi';
-                    } else {
-                        followButton.innerText = 'Theo dõi';
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    // Nếu thao tác thành công, cập nhật trạng thái của nút dựa trên kết quả trả về từ server
-                    updateButtonState(!data.success);
-                })
-                .catch(error => console.error('Lỗi:', error));
-        });
-
-        // Hàm cập nhật trạng thái của nút
-        function updateButtonState(subscribed) {
-            const buttonText = subscribed ? 'Huỷ theo dõi' : 'Theo dõi';
-            followButton.innerText = buttonText;
-        }
-        function changeText() {
-            var button = document.getElementById("followButton");
-            if (followButton.innerText === 'Theo dõi') {
-                        followButton.innerText = 'Huỷ theo dõi';
-                    } else {
-                        followButton.innerText = 'Theo dõi';
-                    }
-        }
-    });
+		// Thêm sự kiện click cho nút theo dõi
+		followButton.addEventListener('click', function () {
+			// Gửi yêu cầu AJAX đến endpoint Subscription
+			fetch(`/Podcast/Subscription?PodcastID=${podcastId}`, {
+				method: 'POST',
+			})
+				.then(response => {
+					if (!response.ok) {
+						throw new Error('Network response was not ok');
+					}
+					return response.json();
+				})
+				.then(data => {
+					if (data.success) {
+						if (data.isSubscribed) {
+							followButton.innerText = 'Huỷ theo dõi';
+						} else {
+							followButton.innerText = 'Theo dõi';
+						}
+					}
+				})
+				.catch(error => console.error('Lỗi:', error));
+		});
+	});
 </script>
 <script>
-    // Lấy các phần tử HTML
-    const modal = document.getElementById("playlistModal");
-    const btn = document.getElementById("addToPlaylist");
-    const span = document.getElementsByClassName("close")[0];
-    const playlistList = document.getElementById("playlistList");
-    const newPlaylistForm = document.getElementById("newPlaylistForm");
+	// Lấy các phần tử HTML
+	const modal = document.getElementById("playlistModal");
+	const btn = document.getElementById("addToPlaylist");
+	const span = document.getElementsByClassName("close")[0];
+	const playlistList = document.getElementById("playlistList");
+	const newPlaylistForm = document.getElementById("newPlaylistForm");
 
-    // Hiển thị modal khi click vào nút "Thêm vào danh sách phát"
-    btn.onclick = function () {
-        console.log("clicked");
-        modal.style.display = "block";
-        // Lấy danh sách playlist hiện tại (thực hiện AJAX request tới server)
-        fetch('/User/GetPlaylists') // Thay thế bằng endpoint thực tế
-            .then(response => response.json())
-            .then(playlists => {
-                playlistList.innerHTML = ''; // Xóa danh sách cũ
-                playlists.forEach(playlist => {
-                    // Tạo element li với radio button cho mỗi playlist
-                    let li = document.createElement("li");
-                    let radioBtn = document.createElement("input");
-                    radioBtn.type = "radio";
-                    radioBtn.name = "playlist";
-                    radioBtn.value = playlist.id; // Giá trị là playlistID
-                    radioBtn.id = `playlist-${playlist.id}`;
-                    let label = document.createElement("label");
-                    label.htmlFor = `playlist-${playlist.id}`;
-                    label.textContent = playlist.name;
-                    li.appendChild(radioBtn);
-                    li.appendChild(label);
-                    playlistList.appendChild(li);
-                });
-            });
-    }
+	// Hiển thị modal khi click vào nút "Thêm vào danh sách phát"
+	btn.onclick = function () {
+		console.log("clicked");
+		modal.style.display = "block";
+		// Lấy danh sách playlist hiện tại (thực hiện AJAX request tới server)
+		fetch('/User/GetPlaylists') // Thay thế bằng endpoint thực tế
+			.then(response => response.json())
+			.then(playlists => {
+				playlistList.innerHTML = ''; // Xóa danh sách cũ
+				playlists.forEach(playlist => {
+					// Tạo element li với radio button cho mỗi playlist
+					let li = document.createElement("li");
+					let radioBtn = document.createElement("input");
+					radioBtn.type = "radio";
+					radioBtn.name = "playlist";
+					radioBtn.value = playlist.id; // Giá trị là playlistID
+					radioBtn.id = `playlist-${playlist.id}`;
+					let label = document.createElement("label");
+					label.htmlFor = `playlist-${playlist.id}`;
+					label.textContent = playlist.name;
+					li.appendChild(radioBtn);
+					li.appendChild(label);
+					playlistList.appendChild(li);
+				});
+			});
+	}
 
-    // Đóng modal khi click vào dấu "x"
-    span.onclick = function () {
-        modal.style.display = "none";
-    }
+	// Đóng modal khi click vào dấu "x"
+	span.onclick = function () {
+		modal.style.display = "none";
+	}
 
-    // Đóng modal khi click ra ngoài vùng modal content
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
+	// Đóng modal khi click ra ngoài vùng modal content
+	window.onclick = function (event) {
+		if (event.target == modal) {
+			modal.style.display = "none";
+		}
+	}
 
 
-    newPlaylistForm.onsubmit = function (event) {
-        event.preventDefault(); // Ngăn chặn submit mặc định
-        const newPlaylistName = document.getElementById("newPlaylistName").value;
+	newPlaylistForm.onsubmit = function (event) {
+		event.preventDefault(); // Ngăn chặn submit mặc định
+		const newPlaylistName = document.getElementById("newPlaylistName").value;
 
-        // Gửi yêu cầu AJAX để tạo playlist mới
-        fetch('/User/CreatePlaylist?playlistName=' + encodeURIComponent(newPlaylistName), { // Truyền playlistName qua query string
-            method: 'POST'
-        })
-            .then(response => response.json())
-            .then(data => {
-                if (data.success) {
-                    // Tạo element li mới cho playlist vừa tạo (với radio button)
-                    let li = document.createElement("li");
-                    let radioBtn = document.createElement("input");
-                    radioBtn.type = "radio";
-                    radioBtn.name = "playlist";
-                    radioBtn.value = data.id; // Giá trị là playlistID mới được tạo
-                    radioBtn.id = `playlist-${data.id}`;
-                    let label = document.createElement("label");
-                    label.htmlFor = `playlist-${data.id}`;
-                    label.textContent = newPlaylistName;
-                    li.appendChild(radioBtn);
-                    li.appendChild(label);
-                    playlistList.appendChild(li);
+		// Gửi yêu cầu AJAX để tạo playlist mới
+		fetch('/User/CreatePlaylist?playlistName=' + encodeURIComponent(newPlaylistName), { // Truyền playlistName qua query string
+			method: 'POST'
+		})
+			.then(response => response.json())
+			.then(data => {
+				if (data.success) {
+					// Tạo element li mới cho playlist vừa tạo (với radio button)
+					let li = document.createElement("li");
+					let radioBtn = document.createElement("input");
+					radioBtn.type = "radio";
+					radioBtn.name = "playlist";
+					radioBtn.value = data.id; // Giá trị là playlistID mới được tạo
+					radioBtn.id = `playlist-${data.id}`;
+					let label = document.createElement("label");
+					label.htmlFor = `playlist-${data.id}`;
+					label.textContent = newPlaylistName;
+					li.appendChild(radioBtn);
+					li.appendChild(label);
+					playlistList.appendChild(li);
 
-                    // Hiển thị thông báo thành công (ví dụ)
-                    alert('Playlist ' + newPlaylistName + ' đã được tạo thành công!');
-                    // Xóa giá trị trong input và đóng modal
-                    document.getElementById("newPlaylistName").value = "";
-                } else {
-                    // Hiển thị thông báo lỗi
-                    alert(data.message);
-                }
-            });
-    };
+					// Hiển thị thông báo thành công (ví dụ)
+					alert('Playlist ' + newPlaylistName + ' đã được tạo thành công!');
+					// Xóa giá trị trong input và đóng modal
+					document.getElementById("newPlaylistName").value = "";
+				} else {
+					// Hiển thị thông báo lỗi
+					alert(data.message);
+				}
+			});
+	};
 
-    const addToSelectedPlaylistBtn = document.getElementById("addToSelectedPlaylistBtn");
+	const addToSelectedPlaylistBtn = document.getElementById("addToSelectedPlaylistBtn");
 
-    // Thêm event listener cho button "Thêm vào Playlist"
-    addToSelectedPlaylistBtn.onclick = function () {
-        // Lấy episode ID (thay thế bằng cách lấy episode ID thực tế)
-        const episodeId = btn.getAttribute('data-episodeId');
+	// Thêm event listener cho button "Thêm vào Playlist"
+	addToSelectedPlaylistBtn.onclick = function () {
+		// Lấy episode ID (thay thế bằng cách lấy episode ID thực tế)
+		const episodeId = btn.getAttribute('data-episodeId');
 
-        // Lấy playlist ID từ radio button đã chọn
-        const selectedPlaylistId = document.querySelector('input[name="playlist"]:checked').value;
+		// Lấy playlist ID từ radio button đã chọn
+		const selectedPlaylistId = document.querySelector('input[name="playlist"]:checked').value;
 
-        // Gửi request AJAX để thêm episode vào playlist
-        fetch(`/Episode/AddToPlaylist?episodeId=${episodeId}&playlistId=${selectedPlaylistId}`, {
-            method: 'POST'
-        })
-            .then(response => response.json())
-            .then(data => {
-                // Xử lý kết quả trả về
-                if (data.success) {
-                    // Hiển thị thông báo thành công
-                    alert(data.message);
-                    // Đóng modal (tùy chọn)
-                    modal.style.display = "none";
-                } else {
-                    // Hiển thị thông báo lỗi
-                    alert(data.message);
-                }
-            });
-    };
+		// Gửi request AJAX để thêm episode vào playlist
+		fetch(`/Episode/AddToPlaylist?episodeId=${episodeId}&playlistId=${selectedPlaylistId}`, {
+			method: 'POST'
+		})
+			.then(response => response.json())
+			.then(data => {
+				// Xử lý kết quả trả về
+				if (data.success) {
+					// Hiển thị thông báo thành công
+					alert(data.message);
+					// Đóng modal (tùy chọn)
+					modal.style.display = "none";
+				} else {
+					// Hiển thị thông báo lỗi
+					alert(data.message);
+				}
+			});
+	};
 </script>
 <script>
-    function changeText() {
-        var button = document.getElementById("followButton");
-        if (button.innerHTML === "Follow") {
-            button.innerHTML = "Following";
-        } else {
-            button.innerHTML = "Follow";
-        }
-    }
+	function changeText() {
+		var button = document.getElementById("followButton");
+		if (button.innerHTML === "Follow") {
+			button.innerHTML = "Following";
+		} else {
+			button.innerHTML = "Follow";
+		}
+	}
 </script>

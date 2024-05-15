@@ -8637,11 +8637,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\foundation-project\\foundation-project\\DACS\\DACS.csproj",
+      "projectUniqueName": "D:\\C#\\foundation-project\\DACS\\DACS.csproj",
       "projectName": "DACS",
-      "projectPath": "D:\\foundation-project\\foundation-project\\DACS\\DACS.csproj",
+      "projectPath": "D:\\C#\\foundation-project\\DACS\\DACS.csproj",
       "packagesPath": "C:\\Users\\Le Duy\\.nuget\\packages\\",
-      "outputPath": "D:\\foundation-project\\foundation-project\\DACS\\obj\\",
+      "outputPath": "D:\\C#\\foundation-project\\DACS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Le Duy\\AppData\\Roaming\\NuGet\\NuGet.Config",

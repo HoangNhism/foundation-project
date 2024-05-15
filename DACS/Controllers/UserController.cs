@@ -38,13 +38,34 @@ namespace DACS.Controllers
             {
                 _context.Add(podcast);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("CreatePodcast","User");
             }
             ViewData["EpisodeID"] = new SelectList(_context.Podcasts, "PodcastID", "Title", podcast.PodcastID);
             return View(podcast);
         }
-
-        [HttpPost]
+		public IActionResult CreateEpisode()
+		{
+			var userID = User?.FindFirstValue(ClaimTypes.NameIdentifier);
+			var podcastList = _context.Podcasts.Where(p => p.UserID == userID).ToList();
+			ViewData["Podcasts"] = new SelectList(podcastList, "PodcastID", "Title");
+			return View();
+		}
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public async Task<IActionResult> CreateEpisode([Bind("EpisodeId,Title,Description,AudioUrl,ReleaseDate,Duraion,EpImage,PodcastID")] Episode episode)
+		{
+			episode.Duraion = 0;
+			episode.ReleaseDate = DateTime.Now;
+			if (ModelState.IsValid)
+			{
+				_context.Add(episode);
+				await _context.SaveChangesAsync();
+				return RedirectToAction("CreateEpisode", "User");
+			}
+			ViewData["Episodes"] = new SelectList(_context.Episodes, "EpisodeID", "Title", episode.PodcastID);
+			return View(episode);
+		}
+		[HttpPost]
         public JsonResult CreatePlaylist(string playlistName) // Thay đổi tham số nhận vào
         {
             // Lấy UserID từ thông tin đăng nhập
