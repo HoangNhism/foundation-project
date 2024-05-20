@@ -179,6 +179,7 @@
 					let label = document.createElement("label");
 					label.htmlFor = `playlist-${playlist.id}`;
 					label.textContent = playlist.name;
+					let removeBtn = document.createElement("button")
 					li.appendChild(radioBtn);
 					li.appendChild(label);
 					playlistList.appendChild(li);

@@ -1,0 +1,68 @@
+﻿
+@model IEnumerable<DACS.Models.ApplicationUser>
+
+@{
+    ViewData["Title"] = "Users";
+    // Layout = "~/Views/_Layout_Admin.cshtml";
+}
+<h2>Danh sách người dùng</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhoneNumber)
+                </td>
+
+                <td>
+                    @if(item.LockoutEnd != null)
+                    {
+                        <a asp-action="UnlockUser" asp-route-userId="@item.Id">
+                            <button class="btn btn-outline-success">
+                                <i class="bi bi-unlock-fill"></i>
+                            </button>
+                        </a>
+                    }
+                    else
+                    {
+                        <a asp-action="LockUser" asp-route-userId="@item.Id">
+                            <button class="btn btn-danger">
+                                <i class="bi bi-lock-fill"></i>
+                            </button>
+                        </a>
+                    }
+                    <a asp-action="UpToAdmin" asp-route-userId="@item.Id">
+                        <button class="btn btn-success">
+                            <i class="bi bi-gear-fill"></i>
+                        </button>
+                    </a>
+                    <a asp-action="SetUserPassword" asp-route-userId="@item.Id">
+                        <button class="btn btn-secondary">
+                            <i class="bi bi-key-fill"></i>
+                        </button>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
