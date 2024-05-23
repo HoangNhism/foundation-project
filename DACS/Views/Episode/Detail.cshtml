@@ -25,24 +25,29 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8">
-            <h3>Đánh giá</h3>
+
             <!-- Form đánh giá -->
             <form id="rateForm" asp-controller="Episode" asp-action="RateEpisode" method="post">
                 <input type="hidden" name="episodeId" value="@Model.episodes.EpisodeId">
-                <div class="input-group mb-3">
-                    <input id="ratingInput" type="number" name="ratingValue" class="form-control" min="1" max="5" step="1" required>
-                    <div class="input-group-append">
-                        <button id="rateButton" type="submit" class="btn btn-primary">Gửi đánh giá</button>
-                    </div>
+
+                <h3>Đánh giá</h3>
+                <div class="rating">
+
+                    <input type="radio" id="star5" name="ratingValue" value="5" required /><label for="star5" title="5 stars">&#9733;</label>
+                    <input type="radio" id="star4" name="ratingValue" value="4" /><label for="star4" title="4 stars">&#9733;</label>
+                    <input type="radio" id="star3" name="ratingValue" value="3" /><label for="star3" title="3 stars">&#9733;</label>
+                    <input type="radio" id="star2" name="ratingValue" value="2" /><label for="star2" title="2 stars">&#9733;</label>
+                    <input type="radio" id="star1" name="ratingValue" value="1" /><label for="star1" title="1 star">&#9733;</label>
+                </div>
+                <div class="input-group-append">
+                    <button id="rateButton" type="submit" class="btn btn-primary">Gửi đánh giá</button>
                 </div>
             </form>
-
             <div id="successAlert" class="alert alert-success d-none" role="alert">
                 Đánh giá thành công!
             </div>
         </div>
     </div>
-
     <div class="row mt-4">
         <div class="col-md-8">
             <h3>Bình luận</h3>
@@ -86,7 +91,6 @@
     </div>
 </div>
 
-
 <script>
     document.getElementById('commentText').addEventListener('input', function () {
         this.style.height = 'auto';
@@ -95,16 +99,46 @@
     document.getElementById('rateForm').addEventListener('submit', function (event) {
         event.preventDefault(); // Ngăn chặn gửi form mặc định
 
-        // Lấy giá trị rating từ input
-        var rating = document.getElementById('ratingInput').value;
+        // Kiểm tra xem người dùng đã đăng nhập hay chưa
+        var isAuthenticated = '@(User.Identity.IsAuthenticated)';
 
-        // Kích hoạt thông báo thành công
-        document.getElementById('successAlert').classList.remove('d-none');
+        if (isAuthenticated) {
+            // Kích hoạt thông báo thành công
+            document.getElementById('successAlert').classList.remove('d-none');
 
-        // Chờ 2 giây và chuyển hướng người dùng đến trang mới
-        setTimeout(function () {
-            document.getElementById('rateForm').submit(); // Gửi form đã xác nhận
-        }, 4000);
+            // Chờ 4 giây và chuyển hướng người dùng đến trang mới
+            setTimeout(function () {
+                document.getElementById('rateForm').submit(); // Gửi form đã xác nhận
+            }, 2000);
+        } else {
+            alert('Bạn cần đăng nhập để đánh giá.');
+        }
     });
 </script>
 
+<style>
+    .rating {
+        direction: rtl;
+        unicode-bidi: bidi-override;
+        font-size: 2rem;
+        display: flex;
+        justify-content: flex-start; /* Align stars to the left */
+        margin-bottom: 1rem;
+        margin-right: 560px;
+    }
+
+        .rating input {
+            display: none;
+        }
+
+        .rating label {
+            cursor: pointer;
+            color: #c5c5c5;
+            margin-left: 10px; /* Add left margin instead of right to keep RTL direction */
+        }
+
+        .rating input:checked ~ label,
+        .rating input:checked ~ label ~ label {
+            color: #ffc700;
+        }
+</style>

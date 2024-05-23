@@ -8632,19 +8632,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Le Duy\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\foundation-project\\DACS\\DACS.csproj",
+      "projectUniqueName": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\DACS.csproj",
       "projectName": "DACS",
-      "projectPath": "D:\\C#\\foundation-project\\DACS\\DACS.csproj",
-      "packagesPath": "C:\\Users\\Le Duy\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\foundation-project\\DACS\\obj\\",
+      "projectPath": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\DACS.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Le Duy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8739,7 +8739,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

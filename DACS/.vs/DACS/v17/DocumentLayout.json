@@ -1,22 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\C#\\foundation-project\\DACS\\",
+  "WorkspaceRootPath": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|d:\\c#\\foundation-project\\dacs\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|d:\\hoc_tap\\dacs\\new folder (2)\\foundation-project\\dacs\\views\\episode\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:views\\episode\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|d:\\c#\\foundation-project\\dacs\\views\\admin\\setuserpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:views\\admin\\setuserpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|d:\\hoc_tap\\dacs\\new folder (2)\\foundation-project\\dacs\\views\\episode\\episodebyplaylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:views\\episode\\episodebyplaylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|d:\\c#\\foundation-project\\dacs\\viewmodels\\setuserpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:viewmodels\\setuserpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|d:\\hoc_tap\\dacs\\new folder (2)\\foundation-project\\dacs\\areas\\admin\\views\\statistical\\episodestats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:areas\\admin\\views\\statistical\\episodestats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|d:\\c#\\foundation-project\\dacs\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|d:\\hoc_tap\\dacs\\new folder (2)\\foundation-project\\dacs\\views\\home\\podcastlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:views\\home\\podcastlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|d:\\hoc_tap\\dacs\\new folder (2)\\foundation-project\\dacs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|d:\\hoc_tap\\dacs\\new folder (2)\\foundation-project\\dacs\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|d:\\hoc_tap\\dacs\\new folder (2)\\foundation-project\\dacs\\areas\\admin\\views\\admin\\createtopic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:areas\\admin\\views\\admin\\createtopic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|d:\\hoc_tap\\dacs\\new folder (2)\\foundation-project\\dacs\\areas\\admin\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:areas\\admin\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|d:\\hoc_tap\\dacs\\new folder (2)\\foundation-project\\dacs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|d:\\hoc_tap\\dacs\\new folder (2)\\foundation-project\\dacs\\areas\\admin\\controllers\\statisticalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:areas\\admin\\controllers\\statisticalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|d:\\hoc_tap\\dacs\\new folder (2)\\foundation-project\\dacs\\areas\\admin\\views\\admin\\setuserpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3750C243-2FCA-4C3E-A2F4-515357419B1D}|DACS.csproj|solutionrelative:areas\\admin\\views\\admin\\setuserpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,56 +57,141 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SetUserPasswordViewModel.cs",
-              "DocumentMoniker": "D:\\C#\\foundation-project\\DACS\\ViewModels\\SetUserPasswordViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\SetUserPasswordViewModel.cs",
-              "ToolTip": "D:\\C#\\foundation-project\\DACS\\ViewModels\\SetUserPasswordViewModel.cs",
-              "RelativeToolTip": "ViewModels\\SetUserPasswordViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:45:40.612Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SetUserPassword.cshtml",
-              "DocumentMoniker": "D:\\C#\\foundation-project\\DACS\\Views\\Admin\\SetUserPassword.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\SetUserPassword.cshtml",
-              "ToolTip": "D:\\C#\\foundation-project\\DACS\\Views\\Admin\\SetUserPassword.cshtml",
-              "RelativeToolTip": "Views\\Admin\\SetUserPassword.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAUwCYAAAAaAAAA",
+              "Title": "EpisodeByPlaylist.cshtml",
+              "DocumentMoniker": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Views\\Episode\\EpisodeByPlaylist.cshtml",
+              "RelativeDocumentMoniker": "Views\\Episode\\EpisodeByPlaylist.cshtml",
+              "ToolTip": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Views\\Episode\\EpisodeByPlaylist.cshtml",
+              "RelativeToolTip": "Views\\Episode\\EpisodeByPlaylist.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T07:24:41.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T08:01:07.313Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Users.cshtml",
-              "DocumentMoniker": "D:\\C#\\foundation-project\\DACS\\Views\\Admin\\Users.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Users.cshtml",
-              "ToolTip": "D:\\C#\\foundation-project\\DACS\\Views\\Admin\\Users.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Users.cshtml",
-              "ViewState": "AQIAACsAAAAAAAAAAAAAADgAAAAhAAAA",
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Views\\Episode\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Episode\\Detail.cshtml",
+              "ToolTip": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Views\\Episode\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Episode\\Detail.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T04:52:24.634Z",
+              "WhenOpened": "2024-05-23T07:56:05.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\C#\\foundation-project\\DACS\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "D:\\C#\\foundation-project\\DACS\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AQIAAHcAAAAAAAAAAAAkwGgAAABhAAAA",
+              "Title": "PodcastList.cshtml",
+              "DocumentMoniker": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Views\\Home\\PodcastList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\PodcastList.cshtml",
+              "ToolTip": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Views\\Home\\PodcastList.cshtml",
+              "RelativeToolTip": "Views\\Home\\PodcastList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T07:55:52.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T07:54:07.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T07:54:06.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EpisodeStats.cshtml",
+              "DocumentMoniker": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Areas\\Admin\\Views\\Statistical\\EpisodeStats.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Statistical\\EpisodeStats.cshtml",
+              "ToolTip": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Areas\\Admin\\Views\\Statistical\\EpisodeStats.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Statistical\\EpisodeStats.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T07:52:39.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StatisticalController.cs",
+              "DocumentMoniker": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Areas\\Admin\\Controllers\\StatisticalController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\StatisticalController.cs",
+              "ToolTip": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Areas\\Admin\\Controllers\\StatisticalController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\StatisticalController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T04:45:52.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T07:52:35.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T07:13:16.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Areas\\Admin\\Views\\Admin\\Users.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Admin\\Users.cshtml",
+              "ToolTip": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Areas\\Admin\\Views\\Admin\\Users.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Admin\\Users.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T07:07:53.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateTopic.cshtml",
+              "DocumentMoniker": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Areas\\Admin\\Views\\Admin\\CreateTopic.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Admin\\CreateTopic.cshtml",
+              "ToolTip": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Areas\\Admin\\Views\\Admin\\CreateTopic.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Admin\\CreateTopic.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T07:07:47.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SetUserPassword.cshtml",
+              "DocumentMoniker": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Areas\\Admin\\Views\\Admin\\SetUserPassword.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Admin\\SetUserPassword.cshtml",
+              "ToolTip": "D:\\Hoc_Tap\\DACS\\New folder (2)\\foundation-project\\DACS\\Areas\\Admin\\Views\\Admin\\SetUserPassword.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Admin\\SetUserPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T07:07:37.228Z"
             }
           ]
         }
