@@ -85,11 +85,9 @@
 
                             <ul class="site-menu js-clone-nav d-none">
                                 <li class="has-children">
-                                    <a asp-controller="Home" asp-action="Index">Home</a>
+                                    <a asp-controller="Home" asp-action="Index">Trang chủ</a>
                                     <ul class="dropdown arrow-top">
-                                        <li><a asp-controller="User" asp-action="CreatePodcast">CreatePodcast</a></li>
-                                        <li><a href="#">Menu Two</a></li>
-                                        <li><a href="#">Menu Three</a></li>
+                                        <li><a asp-controller="User" asp-action="MyPodcast">My Podcast</a></li>
                                         <li class="has-children">
                                             <a href="#">Sub Menu</a>
                                             <ul class="dropdown">
@@ -100,18 +98,11 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="has-children">
-                                    <a href="#">Dropdown</a>
-                                    <ul class="dropdown arrow-top">
-                                        <li><a href="#">Menu One</a></li>
-                                        <li><a href="#">Menu Two</a></li>
-                                        <li><a href="#">Menu Three</a></li>
-                                    </ul>
-                                </li>
+                                
                                 <li><a asp-controller="Home" asp-action="About">About</a></li>
                                 <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
                                 <li class="has-children">
-                                    <a>Account</a>
+                                    <a>Tài Khoản</a>
                                     <partial name="_LoginPartial" />
                                 </li>
                             </ul>
@@ -229,7 +220,7 @@
 
                             <div class="block-16">
                                 <figure>
-                                    <img src="~/images/img_1.jpg" alt="Image placeholder" class="img-fluid rounded">
+                                    <img src="~/images/hero_bg_1.jpg" alt="Image placeholder" class="img-fluid rounded">
                                     <a href="https://vimeo.com/channels/staffpicks/93951774" class="play-button popup-vimeo"><span class="icon-play"></span></a>
                                 </figure>
                             </div>
@@ -281,7 +272,7 @@
 
     <script src="~/js/mediaelement-and-player.min.js"></script>
 
-    @* <script>
+    <script>
         document.addEventListener('DOMContentLoaded', function () {
             var mediaElements = document.querySelectorAll('video, audio'), total = mediaElements.length;
 
@@ -298,7 +289,7 @@
                 });
             }
         });
-    </script> *@
+    </script>
 
 
     <script src="~/js/main.js"></script>

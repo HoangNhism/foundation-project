@@ -71,6 +71,7 @@ namespace DACS.Controllers
             }
             var viewModel = new ViewModelEpisodeByPlaylist
             {
+                PlaylistId = playlistId,
                 PlaylistName = playlist.PlaylistName,
                 Episodes = episodes
             };
@@ -229,5 +230,16 @@ namespace DACS.Controllers
             return Json(new { success = true, message = "Thêm episode vào playlist thành công!" });
         }
 
-    }
+        public JsonResult RemoveFromPlaylist(int episodeId, int playlistId)
+        {
+            var episode = _context.PlaylistDetails.FirstOrDefault(pd => pd.PlaylistID == playlistId && pd.EpisodeId == episodeId);
+            if(episode == null)
+            {
+				return Json(new { success = false, message = "Không tồn tại trong danh sách phát" });
+			}
+            _context.PlaylistDetails.Remove(episode);
+            _context.SaveChanges();
+			return Json(new { success = true, message = "Đã xoá khỏi danh sách phát!" });
+		}
+	}
 }

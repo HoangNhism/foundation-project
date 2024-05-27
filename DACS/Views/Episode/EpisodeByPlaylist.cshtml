@@ -24,6 +24,38 @@
                     <source src="~/@episode.AudioUrl" type="audio/mp3">
                 </audio>
             </div>
+            <button id="removeEpisodeButton" type="button" data-episodeId="@episode.EpisodeId" class="btn btn-primary show-modal follow-btn mt-4 d-block">
+				Xoá khỏi danh sách phát
+            </button>
         </div>
     </div>
 }
+<script>
+	const removeEpisodeButton = document.getElementById("removeEpisodeButton");
+
+	// Thêm event listener cho button "Thêm vào Playlist"
+	removeEpisodeButton.onclick = function () {
+		// Lấy episode ID (thay thế bằng cách lấy episode ID thực tế)
+		const episodeId = removeEpisodeButton.getAttribute('data-episodeId');
+
+		// Lấy playlist ID từ radio button đã chọn
+		const selectedPlaylistId = @Model.PlaylistId;
+
+		// Gửi request AJAX để thêm episode vào playlist
+		fetch(`/Episode/RemoveFromPlaylist?episodeId=${episodeId}&playlistId=${selectedPlaylistId}`, {
+			method: 'POST'
+		})
+			.then(response => response.json())
+			.then(data => {
+				// Xử lý kết quả trả về
+				if (data.success) {
+					// Hiển thị thông báo thành công
+					alert(data.message);
+					location.reload();
+				} else {
+					// Hiển thị thông báo lỗi
+					alert(data.message);
+				}
+			});
+	};
+</script>

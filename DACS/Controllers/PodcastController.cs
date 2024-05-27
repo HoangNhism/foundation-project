@@ -11,14 +11,12 @@ namespace DACS.Controllers
     public class PodcastController : Controller
     {
         private readonly ApplicationDbContext _context;
-		private readonly EFPodcastRepo _podcastRepo;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly ILogger<LoginModel> _logger;
-        public PodcastController(ApplicationDbContext context, EFPodcastRepo podcastRepo, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, ILogger<LoginModel> logger)
+        public PodcastController(ApplicationDbContext context, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, ILogger<LoginModel> logger)
         {
             _context = context;
-			_podcastRepo = podcastRepo;
             _userManager = userManager;
             _signInManager = signInManager;
             _logger = logger;
@@ -70,13 +68,6 @@ namespace DACS.Controllers
 
 			var isSubscribed = await _context.Subscriptions.AnyAsync(s => s.PodcastID == podcastId && s.UserID == userId);
 			return Json(new { isSubscribed });
-		}
-		public async Task<IActionResult> Search(string term)
-		{
-			var podcasts = await _podcastRepo.SearchAsync(term);
-			var podcastNames = podcasts.Select(x => x.Title).ToList();
-			var filteredPodcast = podcastNames.Where(p => p.ToLower().Contains(term.ToLower()));
-			return Json(filteredPodcast);
 		}
 
 	}
