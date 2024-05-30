@@ -92,12 +92,12 @@
 <div id="playlistModal" class="modal">
 	<div class="modal-content">
 		<span class="close">×</span>
-		<h2>Chọn danh sách phát</h2>
+		<h2 class="text-center">Chọn danh sách phát</h2>
 		<ul id="playlistList">
 		</ul>
 		<form id="newPlaylistForm">
-			<input type="text" id="newPlaylistName" placeholder="Tên playlist mới">
-			<button type="submit">Tạo</button>
+			<input type="text" id="newPlaylistName" placeholder="Tên danh sách phát mới">
+			<button type="submit" class="btn btnalert-success">Tạo</button>
 		</form>
 		<button id="addToSelectedPlaylistBtn" type="button" class="btn btn-primary">Thêm vào danh sách phát</button>
 	</div>
@@ -171,14 +171,17 @@
 				playlists.forEach(playlist => {
 					// Tạo element li với radio button cho mỗi playlist
 					let li = document.createElement("li");
+					li.style.listStyleType = "none";
 					let radioBtn = document.createElement("input");
 					radioBtn.type = "radio";
 					radioBtn.name = "playlist";
 					radioBtn.value = playlist.id; // Giá trị là playlistID
 					radioBtn.id = `playlist-${playlist.id}`;
+					radioBtn.style.marginRight = "24px";
 					let label = document.createElement("label");
 					label.htmlFor = `playlist-${playlist.id}`;
 					label.textContent = playlist.name;
+					label.style.fontWeight = "bold";
 					let removeBtn = document.createElement("button")
 					li.appendChild(radioBtn);
 					li.appendChild(label);
@@ -213,14 +216,17 @@
 				if (data.success) {
 					// Tạo element li mới cho playlist vừa tạo (với radio button)
 					let li = document.createElement("li");
+					li.style.listStyleType = "none";
 					let radioBtn = document.createElement("input");
 					radioBtn.type = "radio";
 					radioBtn.name = "playlist";
 					radioBtn.value = data.id; // Giá trị là playlistID mới được tạo
 					radioBtn.id = `playlist-${data.id}`;
+					radioBtn.style.marginRight = "24px";
 					let label = document.createElement("label");
 					label.htmlFor = `playlist-${data.id}`;
 					label.textContent = newPlaylistName;
+					label.style.fontWeight = "bold";
 					li.appendChild(radioBtn);
 					li.appendChild(label);
 					playlistList.appendChild(li);

@@ -5,18 +5,18 @@
     // Layout = "~/Areas/Admin/_Layout_Admin.cshtml";
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
-<h2>Danh sách người dùng</h2>
+<h2 class="text-center">Danh sách người dùng</h2>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.FullName)
+                Họ và tên
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Email)
+                Email
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PhoneNumber)
+                Số điện thoại
             </th>
         </tr>
     </thead>
@@ -40,7 +40,6 @@
                         <a asp-area="Admin" asp-controller="Admin" asp-action="UnlockUser" asp-route-userId="@item.Id">
                             <button class="btn btn-success" onclick="test()">
                                 <i class="bi bi-unlock-fill"></i>
-                                Unlock
                             </button>
                         </a>
                     }
@@ -49,7 +48,6 @@
                         <a asp-area="Admin" asp-controller="Admin" asp-action="LockUser" asp-route-userId="@item.Id">
                             <button class="btn btn-danger">
                                 <i class="bi bi-lock-fill"></i>
-                                Lock
                             </button>
                         </a>
                     }
@@ -68,8 +66,3 @@
         }
     </tbody>
 </table>
-<script>
-    function test() {
-        console.log("clicked");
-    }
-</script>

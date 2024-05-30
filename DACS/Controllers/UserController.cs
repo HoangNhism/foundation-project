@@ -229,5 +229,18 @@ namespace DACS.Controllers
             };
             return View(viewModel);
         }
+        public IActionResult MyPlaylist()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var playlists = _context.Playlists
+                .Where(p => p.UserId == userId)
+                .Select(p => new PlaylistViewModel
+                {
+                    PlaylistId = p.PlaylistID,
+                    PlaylistName = p.PlaylistName
+                })
+                .ToList();
+            return View(playlists);
+        }
     }
 }

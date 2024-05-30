@@ -2,13 +2,85 @@
 @{
     ViewData["Title"] = "Danh sách Podcast";
 }
-<div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
+<div class="podcast-container">
+    @{
+        int counter = 0;
+    }
     @foreach (var item in Model.Podcasts)
     {
-        <div class="btn-group" style="width:10%">
-            <a asp-controller="Episode" asp-action="EpisodesByPodcast" asp-route-id="@item.PodcastID">
-                <button style="background-image: url('/@item.ImageUrl'); background-size: cover; width: 200px; height: 50px; color: white; font-size: 16px; border: none; border-radius: 5px; cursor: pointer;"></button>
+        if (counter > 0 && counter % 6 == 0)
+        {
+            @:<div style="clear: both;"></div>
+        }
+        <div class="podcast-button" style="background-image: url('/@item.ImageUrl');margin-left:20px">
+            <a asp-controller="Episode" asp-action="EpisodesByPodcast" asp-route-id="@item.PodcastID" class="podcast-link">
+                <div class="podcast-info">
+                    <h3>@item.Title</h3>
+                </div>
             </a>
         </div>
+        counter++;
     }
 </div>
+<style>
+    .podcast-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -5px; /* Thay đổi này để điều chỉnh margin cho cả hai bên */
+    }
+
+    .podcast-item {
+        flex: 0 0 calc(16.666% - 10px); /* Sử dụng calc để tính toán kích thước chính xác */
+        margin: 0 5px 20px; /* Thêm khoảng cách 20px giữa các item và 5px cho mỗi bên */
+    }
+
+    .podcast-button {
+        width: calc(100% + 10px); /* Thêm 10px để bù đắp cho margin bên trong */
+        background-size: cover;
+    }
+</style>
+<style>
+    .podcast-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .podcast-button {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .podcast-link {
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: white;
+        text-decoration: none;
+    }
+
+    .podcast-info {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 10px;
+        text-align: center;
+    }
+
+        .podcast-info h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        .podcast-info p {
+            margin: 5px 0 0;
+            font-size: 0.9em;
+        }
+</style>

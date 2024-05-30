@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRWRpdFRvcGljLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/Views/Admin/IndexTopic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXhUb3BpYy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,6 +64,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/Views/Statistical/EpisodeStats.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3RhdGlzdGljYWxcRXBpc29kZVN0YXRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
@@ -154,6 +166,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/Home/SearchPodcast.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2hQb2RjYXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -176,6 +192,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/User/MyEpisodesByPodcast.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNeUVwaXNvZGVzQnlQb2RjYXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/User/MyPlaylist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNeVBsYXlsaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/User/MyPodcast.cshtml]

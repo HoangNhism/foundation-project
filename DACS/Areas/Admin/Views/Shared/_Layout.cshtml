@@ -78,40 +78,25 @@
 
             <!-- Nav Item - User Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                   aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fas fa-fw fa-users "></i>
+                <a asp-area="Admin" asp-controller="PodcastAdmin" asp-action="PodcastList" class="nav-link collapsed">
+                    <i class="fas fa-fw fa-shopping-basket "></i>
+                    
                     <span>Quản lý Podcast</span>
                 </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                     data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" asp-area="Admin" asp-page="/Role/User">Users Management</a>
-                        <a class="collapse-item" asp-area="Admin" asp-page="/Role/Index">Role Mangement</a>
-
-                    </div>
-                </div>
+                
             </li>
 
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a asp- class="nav-link collapsed" data-toggle="collapse" data-target="#collapsePages"
-                   aria-expanded="true" aria-controls="collapsePages">
-                    <i class="fas fa-fw fa-shopping-basket "></i>
+                <a asp-area="Admin" asp-controller="Admin" asp-action="Users" class="nav-link collapsed">
+                    <i class="fas fa-fw fa-users "></i>
                     <span>Quản lý người dùng</span>
                 </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Products Management</a>
-                        <a class="collapse-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Category Management</a>
-
-                    </div>
-                </div>
             </li>
             <!-- Nav Item - Discounts -->
             <li class="nav-item">
-                <a class="nav-link" asp-area="Admin" asp-controller="Discount" asp-action="Index">
+                <a class="nav-link" asp-area="Admin" asp-controller="Statistical" asp-action="EpisodeStats">
                     <i class="fas fa-fw fa-star"></i>
                     <span>Thống kê</span>
                 </a>
@@ -142,19 +127,6 @@
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
                     </button>
-
-                    <!-- Topbar Search -->
-                    <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                        <div class="input-group">
-                            <input type="text" id="postTitle" name="postTitle" class="form-control bg-light border-0 small" placeholder="Search for..."
-                                   aria-label="Search" aria-describedby="basic-addon2">
-                            <div class="input-group-append">
-                                <button class="btn btn-primary" type="submit">
-                                    <i class="fas fa-search fa-sm"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">

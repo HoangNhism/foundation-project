@@ -27,7 +27,11 @@ namespace DACS.Areas.Admin.Controllers
             _topicRepo = topicRepo;
             _userManager = userManager;
         }
-        public IActionResult CreateTopic()
+		public IActionResult Index()
+		{
+			return View();
+		}
+		public IActionResult CreateTopic()
         {
             return View();
         }
@@ -47,7 +51,8 @@ namespace DACS.Areas.Admin.Controllers
 
         public async Task<IActionResult> Users()
         {
-            var users = await _context.Users.ToListAsync();
+            var currentUser = await _userManager.GetUserAsync(User);
+            var users = await _context.Users.Where(u => u.Id != currentUser.Id).ToListAsync();
             return View(users);
         }
 

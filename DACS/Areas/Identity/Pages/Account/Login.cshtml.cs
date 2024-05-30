@@ -115,6 +115,11 @@ namespace DACS.Areas.Identity.Pages.Account
                 var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
+					var isAdmin = User.IsInRole("Admin");
+					if (isAdmin)
+                    {
+						return LocalRedirect("/Admin/Admin/Index");
+					}
                     _logger.LogInformation("User logged in.");
                     return LocalRedirect(returnUrl);
                 }

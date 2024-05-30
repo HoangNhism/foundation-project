@@ -4,11 +4,18 @@
     ViewData["Title"] = "Danh sách Podcast";
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
-<h2>Danh sách Podcast</h2>
+<h2 class="text-center">Danh sách Podcast</h2>
 
 <div class="podcast-container">
+    @{
+        int counter = 0;
+    }
     @foreach (var podcast in Model.Podcasts)
     {
+        if (counter > 0 && counter % 6 == 0)
+        {
+            @:<div style="clear: both;"></div>
+        }
         <div class="podcast-button" style="background-image: url('/@podcast.ImageUrl');">
             <a asp-controller="PodcastAdmin" asp-action="EpisodesByPodcast" asp-route-id="@podcast.PodcastID" class="podcast-link">
                 <div class="podcast-info">
@@ -16,9 +23,26 @@
                 </div>
             </a>
         </div>
+        counter++;
     }
 </div>
+<style>
+    .podcast-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -5px; /* Thay đổi này để điều chỉnh margin cho cả hai bên */
+    }
 
+    .podcast-item {
+        flex: 0 0 calc(16.666% - 10px); /* Sử dụng calc để tính toán kích thước chính xác */
+        margin: 0 5px 20px; /* Thêm khoảng cách 20px giữa các item và 5px cho mỗi bên */
+    }
+
+    .podcast-button {
+        width: calc(100% + 10px); /* Thêm 10px để bù đắp cho margin bên trong */
+        background-size: cover;
+    }
+</style>
 <style>
     .podcast-container {
         display: flex;

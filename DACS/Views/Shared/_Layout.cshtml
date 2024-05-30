@@ -88,14 +88,7 @@
                                     <a asp-controller="Home" asp-action="Index">Trang chủ</a>
                                     <ul class="dropdown arrow-top">
                                         <li><a asp-controller="User" asp-action="MyPodcast">My Podcast</a></li>
-                                        <li class="has-children">
-                                            <a href="#">Sub Menu</a>
-                                            <ul class="dropdown">
-                                                <li><a href="#">Menu One</a></li>
-                                                <li><a href="#">Menu Two</a></li>
-                                                <li><a href="#">Menu Three</a></li>
-                                            </ul>
-                                        </li>
+                                        <li><a asp-controller="User" asp-action="MyPlaylist">Danh sách phát</a></li>
                                     </ul>
                                 </li>
                                 
@@ -272,6 +265,17 @@
 
     <script src="~/js/mediaelement-and-player.min.js"></script>
 
+    <script>
+        document.getElementById('searchForm').addEventListener('submit', function (event) {
+            event.preventDefault(); // Ngăn form gửi ngay lập tức
+            var keyword = document.getElementById('postTitle').value;
+            var searchButton = document.getElementById('searchButton');
+
+            // Cập nhật thuộc tính href để bao gồm giá trị keyword
+            var actionUrl = '@Url.Action("SearchPodcast", "Home")' + '?keyword=' + encodeURIComponent(keyword);
+            window.location.href = actionUrl; // Điều hướng tới URL mới
+        });
+    </script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             var mediaElements = document.querySelectorAll('video, audio'), total = mediaElements.length;

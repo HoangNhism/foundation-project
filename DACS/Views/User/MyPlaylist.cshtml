@@ -1,0 +1,48 @@
+﻿@model List<DACS.ViewModels.PlaylistViewModel>
+@{
+    ViewData["Title"] = "My Playlist";
+}
+
+<h2 id="Title" class="text-center m-10">Danh sách phát</h2>
+
+<style>
+    .playlist-container {
+        margin-top: 40px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+
+    .playlist-item {
+        width: 200px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        text-align: center;
+        transition: all 0.3s ease;
+        list-style-type: none;
+        cursor: pointer;
+        background-color: white;
+    }
+
+        .playlist-item:hover {
+            background-color: #004080;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px);
+        }
+</style>
+
+<div class="playlist-container">
+    @foreach (var playlist in Model)
+    {
+        <div class="playlist-item">
+            <li><a asp-controller="Episode" asp-action="EpisodeByPlaylist" asp-route-playlistId="@playlist.PlaylistId">@playlist.PlaylistName</a></li>
+        </div>
+    }
+</div>

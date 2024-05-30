@@ -91,5 +91,23 @@ namespace DACS.Controllers
         {
             return View();
         }
+        public async Task<IActionResult> SearchPodcast(string? keyword)
+        {
+            List<Podcast> podcasts;
+            if (keyword == null || _context.Podcasts == null)
+            {
+                return NotFound();
+            }
+            podcasts = _context.Podcasts.Where(p => p.Title.Contains(keyword)).ToList();
+            if (podcasts == null)
+            {
+                return NotFound();
+            }
+            var viewModel = new PodcastViewModel
+            {
+                Podcasts = podcasts
+            };
+            return View(viewModel);
+        }
     }
 }
