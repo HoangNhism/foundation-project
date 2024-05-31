@@ -4,7 +4,7 @@
     ViewData["Title"] = "Episodes";
 }
 <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
-    <div class="image" style="background-image : url('/@Model.episodes.EpImage');width:1000px;height:350px"></div>
+    <div class="image" style="background-image : url('/images/@Model.episodes.EpImage');width:1000px;height:350px"></div>
     <div class="text">
         <h3 class="font-weight-light"><a href="/Episode">@Model.episodes.Title</a></h3>
         <div class="text-white mb-3">
@@ -17,7 +17,7 @@
         <p class="mb-4">@Model.episodes.Description</p>
         <div class="player">
             <audio id="player2" preload="none" controls style="max-width: 100%">
-                <source src="~/@Model.episodes.AudioUrl" type="audio/mp3">
+                <source src="~/Video/@Model.episodes.AudioUrl" type="audio/mp3">
             </audio>
         </div>
     </div>

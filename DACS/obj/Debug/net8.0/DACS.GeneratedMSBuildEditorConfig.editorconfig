@@ -17,211 +17,207 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DACS
 build_property.RootNamespace = DACS
-build_property.ProjectDir = D:\Hoc_Tap\DACS\New folder (2)\foundation-project\DACS\
+build_property.ProjectDir = C:\Study\DACS\New folder\foundation-project\DACS\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Hoc_Tap\DACS\New folder (2)\foundation-project\DACS
+build_property.MSBuildProjectDirectory = C:\Study\DACS\New folder\foundation-project\DACS
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/Views/Admin/CreateTopic.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Admin/Views/Admin/CreateTopic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQ3JlYXRlVG9waWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/Views/Admin/EditTopic.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Admin/Views/Admin/EditTopic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRWRpdFRvcGljLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/Views/Admin/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/Views/Admin/IndexTopic.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Admin/Views/Admin/IndexTopic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXhUb3BpYy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/Views/Admin/SetUserPassword.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Admin/Views/Admin/SetUserPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cU2V0VXNlclBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/Views/Admin/Users.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Admin/Views/Admin/Users.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/Views/PodcastAdmin/Detail.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Admin/Views/PodcastAdmin/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9kY2FzdEFkbWluXERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/Views/PodcastAdmin/EpisodesByPodcast.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Admin/Views/PodcastAdmin/EpisodesByPodcast.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9kY2FzdEFkbWluXEVwaXNvZGVzQnlQb2RjYXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/Views/PodcastAdmin/PodcastList.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Admin/Views/PodcastAdmin/PodcastList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9kY2FzdEFkbWluXFBvZGNhc3RMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/Views/Statistical/EpisodeStats.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Admin/Views/Statistical/EpisodeStats.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3RhdGlzdGljYWxcRXBpc29kZVN0YXRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/Episode/Detail.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/Episode/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kZVxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/Episode/EpisodeByPlaylist.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/Episode/EpisodeByPlaylist.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kZVxFcGlzb2RlQnlQbGF5bGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/Episode/EpisodesByPodcast.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/Episode/EpisodesByPodcast.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kZVxFcGlzb2Rlc0J5UG9kY2FzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/Home/About.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/Home/Contact.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/Home/Index.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/Home/PodcastList.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/Home/PodcastList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb2RjYXN0TGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/Home/Privacy.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/Home/SearchPodcast.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/Home/SearchPodcast.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2hQb2RjYXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/Shared/Error.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/Shared/_LoginPartial.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/User/CreateEpisode.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/User/CreateEpisode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGVFcGlzb2RlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/User/CreatePodcast.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/User/CreatePodcast.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGVQb2RjYXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/User/MyEpisodesByPodcast.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/User/MyEpisodesByPodcast.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNeUVwaXNvZGVzQnlQb2RjYXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/User/MyPlaylist.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/User/MyPlaylist.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNeVBsYXlsaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/User/MyPodcast.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/User/MyPodcast.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNeVBvZGNhc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/_ViewImports.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/_ViewStart.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-t4fvs118gc
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/Admin/_Layout_Admin.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/Admin/_Layout_Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cX0xheW91dF9BZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-6u20whlo2l
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Areas/_Layout_Account.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Areas/_Layout_Account.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcX0xheW91dF9BY2NvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-j2gyq4uvv2
 
-[D:/Hoc_Tap/DACS/New folder (2)/foundation-project/DACS/Views/Shared/_Layout.cshtml]
+[C:/Study/DACS/New folder/foundation-project/DACS/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fs0epq82gq

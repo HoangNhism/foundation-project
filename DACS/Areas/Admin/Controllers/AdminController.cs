@@ -27,11 +27,7 @@ namespace DACS.Areas.Admin.Controllers
             _topicRepo = topicRepo;
             _userManager = userManager;
         }
-		public IActionResult Index()
-		{
-			return View();
-		}
-		public IActionResult CreateTopic()
+        public IActionResult CreateTopic()
         {
             return View();
         }

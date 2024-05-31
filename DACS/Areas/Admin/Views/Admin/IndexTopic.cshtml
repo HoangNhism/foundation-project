@@ -5,22 +5,43 @@
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<style>
+    .table th:nth-child(1), .table td:nth-child(1) {
+        width: 10%; /* Đặt độ rộng cho cột "Tên chủ đề", bạn có thể thay đổi % theo ý muốn */
+    }
+
+    .table th:nth-child(2), .table td:nth-child(2) {
+        width: 60%; /* Đặt độ rộng cho cột "Mô tả", bạn có thể thay đổi % theo ý muốn */
+    }
+
+    .table .col-sm {
+        width: 200px; /* Điều chỉnh độ rộng hình ảnh */
+        height: 200px; /* Điều chỉnh chiều cao hình ảnh */
+    }
+
+    .btn-custom {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+</style>
+<h1>Danh sách chủ đề</h1>
 
 <p>
-    <a asp-controller="Admin" asp-action="CreateTopic">Create Topic</a>
+    <form asp-controller="Admin" asp-action="CreateTopic">
+        <button style="margin-left:20px; margin-bottom: 20px" type="submit" class="btn btn-danger btn-sm py-3 px-4 small">Tạo chủ đề mới</button>
+    </form>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.TopicName)
+                Tên chủ đề
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Description)
+                Mô tả
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ImageURL)
+                Hình ảnh
             </th>
             <th></th>
         </tr>
@@ -36,10 +57,12 @@
                     @Html.DisplayFor(modelItem => item.Description)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.ImageURL)
+                    <img src="/images/@item.ImageURL" class="col-sm" alt="..." />
                 </td>
                 <td>
-                    <a asp-controller="Admin" asp-action="EditTopic" asp-route-id="@item.TopicID">Edit</a>
+                    <form asp-action="Edit" asp-route-id="@item.TopicID">
+                        <button type="submit" class="btn btn-danger btn-sm py-3 px-4 small">Chỉnh sửa</button>
+                    </form>
                 </td>
             </tr>
         }

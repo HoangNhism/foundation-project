@@ -50,28 +50,42 @@ namespace DACS.Controllers
             ViewData["EpisodeID"] = new SelectList(_context.Podcasts, "PodcastID", "Title", podcast.PodcastID);
             return View(podcast);
         }
-		public IActionResult CreateEpisode()
-		{
-			var userID = User?.FindFirstValue(ClaimTypes.NameIdentifier);
-			var podcastList = _context.Podcasts.Where(p => p.UserID == userID).ToList();
-			ViewData["Podcasts"] = new SelectList(podcastList, "PodcastID", "Title");
-			return View();
-		}
-		[HttpPost]
-		[ValidateAntiForgeryToken]
-		public async Task<IActionResult> CreateEpisode([Bind("EpisodeId,Title,Description,AudioUrl,ReleaseDate,Duraion,EpImage,PodcastID")] Episode episode)
-		{
-			episode.Duraion = 0;
-			episode.ReleaseDate = DateTime.Now;
-			if (ModelState.IsValid)
-			{
-				_context.Add(episode);
-				await _context.SaveChangesAsync();
-				return RedirectToAction("CreateEpisode", "User");
-			}
-			ViewData["Episodes"] = new SelectList(_context.Episodes, "EpisodeID", "Title", episode.PodcastID);
-			return View(episode);
-		}
+        public IActionResult CreateEpisode(int podcastID)
+        {
+            if (podcastID == null)
+            {
+                return NotFound();
+            }
+            var podcastId = _context.Podcasts.FindAsync(podcastID);
+            if (podcastId == null)
+            {
+                return NotFound();
+            }
+            var episode = new Episode
+            {
+                PodcastID = podcastID,
+            };
+            return View(episode);
+        }
+        // POST: Admin/Products/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreateEpisode(int podcastID, [Bind("EpisodeId,Title,Description,AudioUrl,ReleaseDate,Duraion,EpImage,PodcastID")] Episode episode)
+        {
+            episode.PodcastID = podcastID;
+            episode.Duraion = 0;
+            episode.ReleaseDate = DateTime.Now;
+            if (episode.AudioUrl != null)
+            {
+                _context.Add(episode);
+                await _context.SaveChangesAsync();
+                return View(episode);
+            }
+            ViewData["Episodes"] = new SelectList(_context.Episodes, "EpisodeID", "Title");
+            return View(episode);
+        }
 
         [HttpPost]
         public IActionResult DeleteEpisode(int? episodeId)

@@ -1,42 +1,39 @@
 ﻿@model DACS.Models.Podcast
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Thêm podcast";
 }
 
     <div>
         <form asp-action="CreatePodcast">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Title" class="control-label"></label>
+            <label asp-for="Title" class="control-label">Tiêu đề</label>
                 <input asp-for="Title" class="form-control" />
                 <span asp-validation-for="Title" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
+            <label asp-for="Description" class="control-label">Mô tả</label>
                 <input asp-for="Description" class="form-control" />
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="TopicID" class="control-label"></label>
+            <label asp-for="TopicID" class="control-label">Chọn chủ đề</label>
                 <select asp-for="TopicID" class="form-control" asp-items="ViewBag.Topics"></select>
             </div>
             <div class="form-group">
-                <label asp-for="ImageUrl" class="control-label"></label>
-                @* <input asp-for="ImageUrl" class="form-control" /> *@
+                <label asp-for="ImageUrl" class="control-label">Chọn ảnh podcast</label>
                 <input type="file" asp-for="ImageUrl" class="form-control" />
                 <span asp-validation-for="ImageUrl" class="text-danger"></span>
             </div>
-        @* <div class="form-group">
-            <label asp-for="ImageUrl">Product Image</label>
-            <input type="file" asp-for="ImageUrl" class="form-control" />
-        </div> *@
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <button style="margin-left:20px" type="submit" class="btn btn-danger btn-sm py-3 px-4 small">Tạo podcast</button>
             </div>
         </form>
     </div>
 
 <div>
-    <a asp-controller="" asp-action="">Back to List</a>
+    <form asp-action="MyPodcast" method="get">
+        <button style="margin-left:20px; margin-bottom: 20px" type="submit" class="btn btn-danger btn-sm py-3 px-4 small">Trở về</button>
+    </form>
 </div>
