@@ -42,7 +42,7 @@
 		}
 </style>
 <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
-	<div class="image" style="background-image : url('/@Model.ImageUrl');width:1000px;height:350px"></div>
+	<div class="image" style="background-image : url('/images/@Model.ImageUrl');width:1000px;height:350px"></div>
 	<div class="text">
 		<h3 class="font-weight-light">Podcast</h3>
 		<h1 class="font-weight-light">@Model.Title</h1>  
@@ -68,7 +68,7 @@
 @foreach (var episode in Model.Eps)
 {
 		<div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
-			<div class="image" style="background-image : url('/@episode.EpImage');width:1000px;height:350px"></div>
+			<div class="image" style="background-image : url('/images/@episode.EpImage');width:1000px;height:350px"></div>
 			<div class="text">
 				<h3 class="font-weight-light"><a asp-controller="Episode" asp-action="Detail" asp-route-episodeID="@episode.EpisodeId">@episode.Title</a></h3>
 				<div class="text-white mb-3">
@@ -79,7 +79,7 @@
 				<p class="mb-4">@episode.Description</p>
 				<div class="player">
 					<audio id="player2" preload="none" controls style="max-width: 100%">
-						<source src="~/@episode.AudioUrl" type="audio/mp3">
+						<source src="~/Video/@episode.AudioUrl" type="audio/mp3">
 					</audio>
 				</div>
 				<button id="addToPlaylist" type="button" data-episodeId="@episode.EpisodeId" class="btn btn-primary show-modal follow-btn mt-4 d-block">

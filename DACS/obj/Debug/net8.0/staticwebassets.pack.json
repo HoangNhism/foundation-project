@@ -5,24 +5,56 @@
       "PackagePath": "staticwebassets\\DACS.bundle.scp.css"
     },
     {
-      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\HAS EP87.mp3",
-      "PackagePath": "staticwebassets\\Video\\HAS EP87.mp3"
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\BVERSION_EP25.mp3",
+      "PackagePath": "staticwebassets\\Video\\BVERSION_EP25.mp3"
     },
     {
-      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\HaveAShip EP87.mp3",
-      "PackagePath": "staticwebassets\\Video\\HaveAShip EP87.mp3"
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\BVERSION_EP45.mp3",
+      "PackagePath": "staticwebassets\\Video\\BVERSION_EP45.mp3"
     },
     {
-      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\LunchBreak S2 Ep6.mp3",
-      "PackagePath": "staticwebassets\\Video\\LunchBreak S2 Ep6.mp3"
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\BVERSION_EP46.mp3",
+      "PackagePath": "staticwebassets\\Video\\BVERSION_EP46.mp3"
     },
     {
-      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\TheBreakerEp3.mp3",
-      "PackagePath": "staticwebassets\\Video\\TheBreakerEp3.mp3"
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\BVERSION_EP62.mp3",
+      "PackagePath": "staticwebassets\\Video\\BVERSION_EP62.mp3"
     },
     {
-      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\TheMoneyDate SS2 Ep14.mp3",
-      "PackagePath": "staticwebassets\\Video\\TheMoneyDate SS2 Ep14.mp3"
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\BVERSION_EP67.mp3",
+      "PackagePath": "staticwebassets\\Video\\BVERSION_EP67.mp3"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\HASIP_EP87.mp3",
+      "PackagePath": "staticwebassets\\Video\\HASIP_EP87.mp3"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\LBREAK_S2_EP6.mp3",
+      "PackagePath": "staticwebassets\\Video\\LBREAK_S2_EP6.mp3"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\TBREAKER_EP3.mp3",
+      "PackagePath": "staticwebassets\\Video\\TBREAKER_EP3.mp3"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\TMDATE_SS2_EP10.mp3",
+      "PackagePath": "staticwebassets\\Video\\TMDATE_SS2_EP10.mp3"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\TMDATE_SS2_EP14.mp3",
+      "PackagePath": "staticwebassets\\Video\\TMDATE_SS2_EP14.mp3"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\TMDATE_SS2_EP19.mp3",
+      "PackagePath": "staticwebassets\\Video\\TMDATE_SS2_EP19.mp3"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\TMDATE_SS2_EP21.mp3",
+      "PackagePath": "staticwebassets\\Video\\TMDATE_SS2_EP21.mp3"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\Video\\TMDATE_SS2_EP26.mp3",
+      "PackagePath": "staticwebassets\\Video\\TMDATE_SS2_EP26.mp3"
     },
     {
       "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\css\\aos.css",
@@ -185,28 +217,96 @@
       "PackagePath": "staticwebassets\\fonts\\nucleo.woff2"
     },
     {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\BVERSION.jpg",
+      "PackagePath": "staticwebassets\\images\\BVERSION.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\BVERSION_EP25.jpg",
+      "PackagePath": "staticwebassets\\images\\BVERSION_EP25.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\BVERSION_EP45.jpg",
+      "PackagePath": "staticwebassets\\images\\BVERSION_EP45.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\BVERSION_EP46.jpg",
+      "PackagePath": "staticwebassets\\images\\BVERSION_EP46.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\BVERSION_EP62.jpg",
+      "PackagePath": "staticwebassets\\images\\BVERSION_EP62.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\BVERSION_EP67.jpg",
+      "PackagePath": "staticwebassets\\images\\BVERSION_EP67.jpg"
+    },
+    {
       "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\Chua_Lanh.jpg",
       "PackagePath": "staticwebassets\\images\\Chua_Lanh.jpg"
     },
     {
-      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\HAS_EP87.jpg",
-      "PackagePath": "staticwebassets\\images\\HAS_EP87.jpg"
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\Giao_Duc.jpg",
+      "PackagePath": "staticwebassets\\images\\Giao_Duc.jpg"
     },
     {
-      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\HAVE_A_SIP.jpg",
-      "PackagePath": "staticwebassets\\images\\HAVE_A_SIP.jpg"
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\HASIP.jpg",
+      "PackagePath": "staticwebassets\\images\\HASIP.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\HASIP_EP87.jpg",
+      "PackagePath": "staticwebassets\\images\\HASIP_EP87.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\LBREAK.jpg",
+      "PackagePath": "staticwebassets\\images\\LBREAK.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\LBREAK_SS1_EP1.jpg",
+      "PackagePath": "staticwebassets\\images\\LBREAK_SS1_EP1.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\Phuong_Tien.jpg",
+      "PackagePath": "staticwebassets\\images\\Phuong_Tien.jpg"
     },
     {
       "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\Self_Grown.jpg",
       "PackagePath": "staticwebassets\\images\\Self_Grown.jpg"
     },
     {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\TBREAKER.jpg",
+      "PackagePath": "staticwebassets\\images\\TBREAKER.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\TBREAKER_EP3.jpg",
+      "PackagePath": "staticwebassets\\images\\TBREAKER_EP3.jpg"
+    },
+    {
       "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\TMD.jpg",
       "PackagePath": "staticwebassets\\images\\TMD.jpg"
     },
     {
-      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\TheBreaker.jpg",
-      "PackagePath": "staticwebassets\\images\\TheBreaker.jpg"
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\TMD_SS2_EP10.jpg",
+      "PackagePath": "staticwebassets\\images\\TMD_SS2_EP10.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\TMD_SS2_EP14.jpg",
+      "PackagePath": "staticwebassets\\images\\TMD_SS2_EP14.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\TMD_SS2_EP19.jpg",
+      "PackagePath": "staticwebassets\\images\\TMD_SS2_EP19.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\TMD_SS2_EP21.jpg",
+      "PackagePath": "staticwebassets\\images\\TMD_SS2_EP21.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\TMD_SS2_EP26.jpg",
+      "PackagePath": "staticwebassets\\images\\TMD_SS2_EP26.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\The_Thao.jpg",
+      "PackagePath": "staticwebassets\\images\\The_Thao.jpg"
     },
     {
       "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\Tien_Te.jpg",
@@ -235,6 +335,14 @@
     {
       "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\hero_bg_3.jpg",
       "PackagePath": "staticwebassets\\images\\hero_bg_3.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\img_1.jpg",
+      "PackagePath": "staticwebassets\\images\\img_1.jpg"
+    },
+    {
+      "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\img_3.jpg",
+      "PackagePath": "staticwebassets\\images\\img_3.jpg"
     },
     {
       "Id": "C:\\Study\\DACS\\New folder\\foundation-project\\DACS\\wwwroot\\images\\img_4.jpg",
