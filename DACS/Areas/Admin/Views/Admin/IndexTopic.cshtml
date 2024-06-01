@@ -60,9 +60,9 @@
                     <img src="/images/@item.ImageURL" class="col-sm" alt="..." />
                 </td>
                 <td>
-                    <form asp-action="Edit" asp-route-id="@item.TopicID">
-                        <button type="submit" class="btn btn-danger btn-sm py-3 px-4 small">Chỉnh sửa</button>
-                    </form>
+                    <a asp-action="EditTopic" asp-route-id="@item.TopicID">
+                        <button class="btn btn-danger btn-sm py-3 px-4 small">Chỉnh sửa</button>
+                    </a>
                 </td>
             </tr>
         }

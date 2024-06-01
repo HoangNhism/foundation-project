@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Website Nghe Podcast</title>
@@ -54,7 +55,9 @@
     </style>
 </head>
 <body>
-
+    @{
+        var isAdmin = User.IsInRole("Admin");
+    }
     <div class="site-wrap">
 
         <div class="site-mobile-menu">
@@ -84,18 +87,21 @@
                             <div class="d-inline-block ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-orange"><span class="icon-menu h3"></span></a></div>
 
                             <ul class="site-menu js-clone-nav d-none">
-                                <li class="has-children">
+                                <li>
                                     <a asp-controller="Home" asp-action="Index">Trang chủ</a>
-                                    <ul class="dropdown arrow-top">
-                                        <li><a asp-controller="User" asp-action="MyPodcast">My Podcast</a></li>
-                                        <li><a asp-controller="User" asp-action="MyPlaylist">Danh sách phát</a></li>
-                                    </ul>
+                                    @* <ul class="dropdown arrow-top"></ul> *@
                                 </li>
+                                <li><a asp-controller="User" asp-action="MyPodcast">Podcast của tôi</a></li>
+                                <li><a asp-controller="User" asp-action="MyPlaylist">Danh sách phát</a></li>
+                                @if (isAdmin)
+                                {
+                                    <li><a asp-area="Admin" asp-controller="Admin" asp-action="Index">Admin</a></li>
+                                }
                                 
-                                <li><a asp-controller="Home" asp-action="About">About</a></li>
-                                <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
+                                <li><a asp-controller="Home" asp-action="About">Giới thiệu</a></li>
+                                <li><a asp-controller="Home" asp-action="Contact">Liên hệ</a></li>
                                 <li class="has-children">
-                                    <a>Tài Khoản</a>
+                                    <a>Tài khoản</a>
                                     <partial name="_LoginPartial" />
                                 </li>
                             </ul>
@@ -107,7 +113,7 @@
                     <div class="col-3" data-aos="fade-down">
                         <form id="searchForm">
                             <div class="input-group">
-                                <input type="text" id="postTitle" name="postTitle" placeholder="Enter your keyword" />
+                                <input type="text" id="postTitle" name="postTitle" placeholder="Nhập từ khoá" />
                                 <button class="btn btn-primary" type="submit">
                                     <i class="bi bi-search"></i>
                                 </button>

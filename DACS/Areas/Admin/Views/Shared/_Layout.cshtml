@@ -47,7 +47,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a asp-controller="Admin" asp-action="Index" class="sidebar-brand d-flex align-items-center justify-content-center">
                 <div class="sidebar-brand-text mx-3"> Admin <sup></sup></div>
             </a>
 
@@ -101,8 +101,9 @@
                     <span>Thống kê</span>
                 </a>
             </li>
-
-
+            <li class="nav-item">
+                <partial name="_LoginPartial" />
+            </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">

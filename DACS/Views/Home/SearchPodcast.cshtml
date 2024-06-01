@@ -12,7 +12,7 @@
         {
             @:<div style="clear: both;"></div>
         }
-        <div class="podcast-button" style="background-image: url('/@item.ImageUrl');margin-left:20px">
+        <div class="podcast-button" style="background-image: url('/images/@item.ImageUrl');margin-left:20px">
             <a asp-controller="Episode" asp-action="EpisodesByPodcast" asp-route-id="@item.PodcastID" class="podcast-link">
                 <div class="podcast-info">
                     <h3>@item.Title</h3>

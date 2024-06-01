@@ -71,7 +71,7 @@ app.UseAuthorization();
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(
-        name: "employee",
+        name: "admin",
         pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}"
     );
     endpoints.MapControllerRoute(
