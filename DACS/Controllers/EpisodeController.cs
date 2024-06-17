@@ -208,6 +208,7 @@ namespace DACS.Controllers
 
             return RedirectToAction("Detail", "Episode", new { episodeId = comment.EpisodeID });
         }
+
         [HttpPost]
         public JsonResult AddToPlaylist(int episodeId, int playlistId)
         {

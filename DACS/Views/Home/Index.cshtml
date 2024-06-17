@@ -125,7 +125,7 @@
                     <div class="text-white mb-4">
                         <span class="text-white-opacity-05">
                             <small>
-                                <span class="sep">/</span> @Model.Episodes[0].ReleaseDate <span class="sep">/</span> @Model.Episodes[0].Duraion minute
+                                @Model.Episodes[0].ReleaseDate
                             </small>
                         </span>
                     </div>
@@ -162,11 +162,11 @@
                     <div class="text-white mb-3">
                         <span class="text-black-opacity-05">
                             <small>
-                                <span class="sep">/</span> @item.ReleaseDate <span class="sep">/</span> @item.Duraion minute
+                                @item.ReleaseDate
                             </small>
                         </span>
                     </div>
-                    <p class="mb-4">@item.Description </p>
+                  
                     <div class="player">
                         <audio id="player2" preload="none" controls style="max-width: 100%">
                             <source src="~/Video/@item.AudioUrl" type="audio/mp3">

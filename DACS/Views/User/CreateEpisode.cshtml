@@ -4,7 +4,7 @@
     ViewData["Title"] = "Thêm tập";
 }
 
-<div>
+<div style="margin:10px">
     <form asp-action="CreateEpisode">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <div class="form-group">
@@ -32,7 +32,7 @@
             <span asp-validation-for="EpImage" class="text-danger"></span>
         </div>
         <div class="form-group">
-            <button style="margin-left:20px" type="submit" class="btn btn-danger btn-sm py-3 px-4 small">Thêm tập mới</button>
+            <button style="margin-left:10px" type="submit" class="btn btn-danger btn-sm py-3 px-4 small">Thêm tập mới</button>
         </div>
     </form>
 </div>
