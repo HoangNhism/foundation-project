@@ -1,0 +1,144 @@
+﻿@using System.Security.Claims
+
+@model DACS.ViewModels.ViewModelComment
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Episodes";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="d-block d-md-flex podcast-entry bg-white mb-5">
+    <div class="image" style="background-image : url('/@Model.episodes.EpImage');width:1000px;height:350px"></div>
+    <div class="text">
+        <h3 class="font-weight-light"><a href="/PodcastAdmin">@Model.episodes.Title</a></h3>
+        <div class="text-white mb-3">
+            <span class="text-black-opacity-05">
+                <small>
+                    <span class="sep">/</span> @Model.episodes.ReleaseDate.ToShortDateString() <span class="sep">/</span> @Model.episodes.Duraion minute
+                </small>
+            </span>
+        </div>
+        <p class="mb-4">@Model.episodes.Description</p>
+        <div class="player">
+            <audio id="player2" preload="none" controls style="max-width: 100%">
+                <source src="~/@Model.episodes.AudioUrl" type="audio/mp3">
+            </audio>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+
+            <!-- Form đánh giá -->
+            <form id="rateForm" asp-controller="PodcastAdmin" asp-action="RateEpisode" method="post">
+                <input type="hidden" name="episodeId" value="@Model.episodes.EpisodeId">
+
+                <h3>Đánh giá</h3>
+                <div class="rating">
+
+                    <input type="radio" id="star5" name="ratingValue" value="5" required /><label for="star5" title="5 stars">&#9733;</label>
+                    <input type="radio" id="star4" name="ratingValue" value="4" /><label for="star4" title="4 stars">&#9733;</label>
+                    <input type="radio" id="star3" name="ratingValue" value="3" /><label for="star3" title="3 stars">&#9733;</label>
+                    <input type="radio" id="star2" name="ratingValue" value="2" /><label for="star2" title="2 stars">&#9733;</label>
+                    <input type="radio" id="star1" name="ratingValue" value="1" /><label for="star1" title="1 star">&#9733;</label>
+                </div>
+                <div class="input-group-append">
+                    <button id="rateButton" type="submit" class="btn btn-primary">Gửi đánh giá</button>
+                </div>
+            </form>
+            <div id="successAlert" class="alert alert-success d-none" role="alert">
+                Đánh giá thành công!
+            </div>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-md-8">
+            <h3>Bình luận</h3>
+            <!-- Danh sách bình luận -->
+            <div id="comment-section">
+                @foreach (var comment in Model.Comments)
+                {
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <!-- Hình đại diện của người dùng -->
+                            @if (!string.IsNullOrEmpty(comment.UserProfileImageUrl))
+                            {
+                                <img src="@comment.UserProfileImageUrl" alt="Avatar" class="rounded-circle" style="width: 40px; height: 40px;">
+                            }
+                            <!-- Tên người dùng -->
+                            <span class="font-weight-bold">@comment.UserName</span>
+                            <!-- Thời gian bình luận -->
+                            <span class="text-muted">- @comment.Comment.CommentDate.ToString("dd/MM/yyyy HH:mm")</span>
+                            <!-- Nội dung bình luận -->
+                            <p class="mt-2 mb-0">@comment.Comment.CommentText</p>
+                            <!-- Nút Xoá (nếu là bình luận của người dùng đã đăng nhập) -->
+                            <form asp-controller="PodcastAdmin" asp-action="DeleteComment" method="post" class="mt-2">
+                                <input type="hidden" name="commentId" value="@comment.Comment.CommentID" />
+                                <button type="submit" class="btn btn-sm btn-danger">Xoá</button>
+                            </form>
+                        </div>
+                    </div>
+                }
+            </div>
+            <!-- Form bình luận mới -->
+            <form asp-controller="PodcastAdmin" asp-action="AddComment" asp-route-episodeId="@Model.episodes.EpisodeId" method="post">
+                <div class="form-group">
+                    <textarea id="commentText" name="commentText" class="form-control" rows="3" placeholder="Nhập bình luận của bạn" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Gửi bình luận</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('commentText').addEventListener('input', function () {
+        this.style.height = 'auto';
+        this.style.height = (this.scrollHeight) + 'px';
+    });
+    document.getElementById('rateForm').addEventListener('submit', function (event) {
+        event.preventDefault(); // Ngăn chặn gửi form mặc định
+
+        // Kiểm tra xem người dùng đã đăng nhập hay chưa
+        var isAuthenticated = '@(User.Identity.IsAuthenticated)';
+
+        if (isAuthenticated) {
+            // Kích hoạt thông báo thành công
+            document.getElementById('successAlert').classList.remove('d-none');
+
+            // Chờ 4 giây và chuyển hướng người dùng đến trang mới
+            setTimeout(function () {
+                document.getElementById('rateForm').submit(); // Gửi form đã xác nhận
+            }, 2000);
+        } else {
+            alert('Bạn cần đăng nhập để đánh giá.');
+        }
+    });
+</script>
+
+<style>
+    .rating {
+        direction: rtl;
+        unicode-bidi: bidi-override;
+        font-size: 2rem;
+        display: flex;
+        justify-content: flex-start; /* Align stars to the left */
+        margin-bottom: 1rem;
+        margin-right: 560px;
+    }
+
+        .rating input {
+            display: none;
+        }
+
+        .rating label {
+            cursor: pointer;
+            color: #c5c5c5;
+            margin-left: 10px; /* Add left margin instead of right to keep RTL direction */
+        }
+
+        .rating input:checked ~ label,
+        .rating input:checked ~ label ~ label {
+            color: #ffc700;
+        }
+</style>

@@ -1,0 +1,75 @@
+﻿@model IEnumerable<DACS.Models.ApplicationUser>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Users";
+    // Layout = "~/Areas/Admin/_Layout_Admin.cshtml";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<h2>Danh sách người dùng</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhoneNumber)
+                </td>
+
+                <td>
+                    @if (item.LockoutEnd != null)
+                    {
+                        <a asp-area="Admin" asp-controller="Admin" asp-action="UnlockUser" asp-route-userId="@item.Id">
+                            <button class="btn btn-success" onclick="test()">
+                                <i class="bi bi-unlock-fill"></i>
+                                Unlock
+                            </button>
+                        </a>
+                    }
+                    else
+                    {
+                        <a asp-area="Admin" asp-controller="Admin" asp-action="LockUser" asp-route-userId="@item.Id">
+                            <button class="btn btn-danger">
+                                <i class="bi bi-lock-fill"></i>
+                                Lock
+                            </button>
+                        </a>
+                    }
+                    <a asp-action="UpToAdmin" asp-route-userId="@item.Id">
+                        <button class="btn btn-success">
+                            <i class="bi bi-gear-fill"></i>
+                        </button>
+                    </a>
+                    <a a asp-action="SetUserPassword" asp-route-userId="@item.Id">
+                        <button class="btn btn-secondary">
+                            <i class="bi bi-key-fill"></i>
+                        </button>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<script>
+    function test() {
+        console.log("clicked");
+    }
+</script>

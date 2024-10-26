@@ -7,6 +7,7 @@
         public string UserId { get; set; }
         public ApplicationUser? User { get; set; }
         public List<Episode> Episodes { get; set; }
+        public List<PlaylistDetail> PlaylistDetails { get; set; }
 
     }
 }

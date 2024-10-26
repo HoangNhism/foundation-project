@@ -38,11 +38,11 @@ namespace DACS.Models
         public async Task<IEnumerable<Podcast>> SearchAsync(string searchTerm)
         {
             var normalizedSearchTerm = searchTerm.ToLowerInvariant();
-            var Podcasts = await _context.Podcasts
+            var podcasts = await _context.Podcasts
                 .Where(p => p.Title.ToLower().Contains(normalizedSearchTerm))
                 .ToListAsync();
 
-            return Podcasts;
+            return podcasts;
         }
     }
 }
